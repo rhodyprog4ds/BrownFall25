@@ -1,0 +1,14 @@
+,level,A,A-,B+,B,B-,C+,C,C-,D+,D,F
+experience,active,,,,,,,,,,,
+experience,present,,,,,,,,,,,
+process,innovative,5,4,3,2,1,0,0,0,0,0,0
+process,complete,5,5,5,5,4,4,3,2,2,1,0
+process,partial,5,5,5,5,5,5,5,5,5,3,
+communication,innovative,5,,,,,,,,,,
+communication,complete,8,,,,,,,,,,
+data,innovative,5,,,,,,,,,,
+data,complete,10,10,10,10,,,,,,,
+modeling,innovative,3,2,1,,,,,,,,
+modeling,complete,4,,,,,,,,,,
+exploratory,innovative,3,2,1,,,,,,,,
+exploratory,complete,8,8,8,7,6,5,4,3,2,1,

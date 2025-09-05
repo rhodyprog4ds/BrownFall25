@@ -1,0 +1,15 @@
+name: rhodyds_environment
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - plotnine
+  - plotly
+  - seaborn
+  - scikit-learn
+  - mystmd
