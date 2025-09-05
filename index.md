@@ -1,10 +1,10 @@
-# About this Book
+# About this Site
 
-Welcome to the course manual for CSC310 at URI with Professor Brown.
+Welcome to the course website for CSC310 at URI with Professor Brown.
 
 This class meets TTh 3:30-4:45 in Pastore 259.
 
-This website will contain the syllabus, class notes, and other reference material for the class.
+This website contains the syllabus, class notes, and other reference material for the class.
 
 
 ## Land University of Rhode Island Land Acknowledgment
