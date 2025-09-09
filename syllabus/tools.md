@@ -31,7 +31,7 @@ Seeing the BrightSpace site requires loging in with your URI SSO and being enrol
 ```
 ````
 This will be the central location from which you can access links to other materials.
-Any links that are for private discussion among those enrolled in the course will be available only from our course [Brightspace site](https://brightspace.uri.edu/d2l/home/226416).
+Any links that are for private discussion among those enrolled in the course will be available only from our course Brightspace site.
 
 <!-- 
 For announcements, you can [customize](https://documentation.brightspace.com/EN/le/announcements/learner/enable_notifications_in_announcements.htm) how you receive them. -->
@@ -47,7 +47,7 @@ On Prismia, all students see the instructor's messages, but only the Instructor 
 ## Course website
 
 The course manual will have content including the class policies, scheduling, class notes, assignment information, and additional resources.
-This will be linked from Brightspace and available publicly online at [rhodyprog4ds.github.io/BrownSpring23/](https://rhodyprog4ds.github.io/BrownFall25/).
+This will be linked from Brightspace and available publicly online at [rhodyprog4ds.github.io/BrownFall25/](https://rhodyprog4ds.github.io/BrownFall25/).
 Links to the course reference text and code documentation will also be included here in the assignments and class notes.
 
 ## GitHub
@@ -80,7 +80,7 @@ Everything in this class will be tested with the up to date (or otherwise specif
 #### Recommendation:
 
 
-- For python [use the Carpentries instructions](https://carpentries.github.io/workshop-template/install_instructions/#python-1) but use this class environment file. 
+- For python [use the Carpentries instructions](https://carpentries.github.io/workshop-template/install_instructions/#python-1) but use this [class environment file](https://raw.githubusercontent.com/rhodyprog4ds/BrownFall25/refs/heads/main/rhodyds_environment.yml). 
 - if you use Windows, install Git with [GitBash](https://gitforwindows.org/) ([video instructions](https://youtu.be/339AEqk9c-8)).
 - if you use MacOS, install Git with the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this by trying to run git from the Terminal the very first time.`git --version`
 - if you use Chrome OS, follow these instructions:
