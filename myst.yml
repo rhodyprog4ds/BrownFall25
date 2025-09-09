@@ -24,7 +24,7 @@ project:
         - file: syllabus/communication.md
     - title: Notes
       children: 
-        - file: 'notes/2025-*.md'
+        - file: notes/2025-09-04.md
     - title: Assignments
       children: []
     - title: Portfolio
