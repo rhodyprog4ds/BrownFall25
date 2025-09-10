@@ -33,7 +33,7 @@ project:
       children: 
         - pattern: 'notes/2025-*.md'
     - title: Assignments
-      children: []
+      children: 
         - pattern: 'assignments/*-*.md'
     - title: Portfolio
       children:

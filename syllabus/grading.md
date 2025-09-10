@@ -101,7 +101,7 @@ Assignments will each evaluate certain objectives. After your assignment is revi
 
 These are the assignments where you *can* earn **complete** on each objective. 
 :::::{csv-table}
-:header:A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
+:header: outcome,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
 
 process,,,,,✅,✅,✅,✅,✅,✅
 communication,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
@@ -152,7 +152,7 @@ exploratory,innovative,  3,2,1,0,0,0,0,0,0,0,0
 exploratory,complete,    6,6,6,6,5,4,3,2,1,1,0
 ::::::::
 
-These are all minimums and "or better" applies, so innovative ratings count toward the count of complete ratings, but not the other way around.  Partial ratings only impact your grade for process and communication. For other objectives you might receive a rating or partial to acknowledge that you made some progress, but you will need to reach complete for your grade.  
+These are all minimums and "or better" applies, so innovative ratings count toward the count of complete ratings, but not the other way around.  `Partial` ratings only impact your grade for process and communication. For other objectives you might receive a rating or partial to acknowledge that you made some progress, but you will need to reach complete for your grade.  
 
 
 

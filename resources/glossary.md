@@ -40,9 +40,8 @@ dictionary
 discriminative 
 :  a model that describes the decision rule for labeling a sample as one class or another
 
-diplay
+display
 :  in jupyter notebooks, an HTML rendering of the output of a cell
-
 
 document
 :  unit of text for analysis (one sample). Could be one sentence, one paragraph, or an article, depending on the goal
