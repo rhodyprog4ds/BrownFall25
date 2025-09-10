@@ -1,9 +1,9 @@
-jupyter-book
+myst
+jupyter-server
 pyppeteer
 lxml
 xlrd
 sphinx-panels
-git+https://github.com/brownsarahm/sphinxcontrib-mermaid@cdnupdate
 matplotlib
 numpy
 pandas
@@ -12,3 +12,4 @@ scikit-learn
 aif360
 imageio
 ucimlrepo
+ipykernel

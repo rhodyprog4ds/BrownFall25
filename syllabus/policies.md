@@ -29,7 +29,7 @@ If you have a serious issue during the semester, that prevents you from submitti
 
 ## Portfolio Deadlines and Extensions 
 
-Building your Data Science Portfolio should be an ongoing process, where you commit work to your portfolio frequently. If something comes up and you cannot finish all that you would like assessed by the deadline, open an `Extension Request` issue on your repository at least **24 hours** before the deadline.
+Building your Data Science Portfolio should be an ongoing process, where you commit work to your portfolio frequently. If something comes up and you cannot finish all that you would like assessed by the deadline, open an `Extension Request` issue on your {term}`repository` at least **24 hours** before the deadline.
 
 In this issue, include:
 1. A proposed new deadline

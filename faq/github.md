@@ -7,13 +7,13 @@
 ````
  -->
 ## I can't push to my repository, I get an error that updates were rejected
-````{toggle}
+
 
 ```
 ! [rejected] main -> main (fetch first)
 error: failed to push some refs to <repository name>
 hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
+hint: not have locally. This is usually caused by another {term}`repository` pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
@@ -28,11 +28,11 @@ git pull
 ```
 
 You'll probably have to [resolve a merge conflict](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
-````
+
 
 ## The content I added to my portfolio isn't in the pdf
 
-````{toggle}
+
 There was an error in the original `_toc.yml` file, change yours to match the following:
 
 ```
@@ -49,20 +49,20 @@ parts:
 ```
 
 uncomment the later lines and add any new files you add.
-````
+
 
 
 
 
 ## My command line says I cannot use a password
-````{toggle}
+
 GitHub has [strong rules](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/about-authentication-to-github) about authentication
 You need to use SSH with a public/private key; HTTPS with a [Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) or use the [GitHub CLI](https://cli.github.com/) [auth](https://cli.github.com/manual/gh_auth_login)
 
-````
+
 
 ## My .ipynb file isn't showing in the staging area or didn't push
-````{toggle}
+
 .ipynb files are json that include all of the output, including tables as html and plots as svg, so, unlike plain code files, they don't play well with
 version control.  
 
@@ -84,25 +84,24 @@ get help.
 As a last resort, use the jupyter interface to download (File > Download as > ...)your notebook as `.md`
 if avialable or `.py` if not and then move that file from your Downloads folder
 to your repository.  We'll set up another workflow for future work
-````
+
 
 
 ## My portfolio won't compile
-````{toggle}
+
 If there's an error your notebook it can't complete running. You can allow it to run if the error is on purpose by changing settings as mentioned on the [formatting](portfolio/formatting) page.
 
-````
 
 
 (preemptive-merge)=
 ## Help! I accidentally merged the Feedback Pull Request before my assignment was graded
-````{toggle}
+
 
 That's ok. You can fix it.
 
 You'll have to work offline and use GitHub in your browser together for this fix. The following instuctions will work in terminal on Mac or Linux or in GitBash for Windows. (see [Programming Environment section on the tools page](programming-env)).
 
-First get the url to clone your repository (unless you already have it cloned then skip ahead): on the main page for your repository, click the green "Code" button, then copy the url that's show
+First get the url to clone your {term}`repository` (unless you already have it cloned then skip ahead): on the main page for your repository, click the green "Code" button, then copy the url that's show
 ![screenshot of copying .git url](../img/get_clone_url.png)
 
 Next open a terminal or GitBash and type the following.
@@ -117,7 +116,7 @@ then past your url that you copied. It will look something like this, but the la
 git clone https://github.com/rhodyprog4ds/portfolio-brownsarahm.git
 ```
 
-When you merged the Feedback pull request you advanced the `feedback` branch, so we need to hard reset it back to before you did any work. To do this, first check it out, by navigating into the folder for your repository (created when you cloned above) and then checking it out, and making sure it's up to date with the `remote` (the copy on GitHub)
+When you merged the Feedback pull request you advanced the `feedback` branch, so we need to hard reset it back to before you did any work. To do this, first check it out, by navigating into the folder for your {term}`repository` (created when you cloned above) and then checking it out, and making sure it's up to date with the `remote` (the copy on GitHub)
 
 ```
 cd portfolio-brownsarahm
@@ -210,6 +209,5 @@ Make the title "Feedback" put a note in the body and then click the green "Creat
 
 Now you're done!
 
-If you have trouble, create an issue and tag `@@rhodyprog4ds/fall22instructors` for help.
+If you have trouble, create an issue and tag `@rhodyprog4ds/instructors` for help.
 
-````

@@ -42,9 +42,9 @@ if after that break the change in circumstance allows you to focus less on cours
 
 ## About this syllabus
 
-This syllabus is a *living*  document and accessible from BrightSpace, as a pdf for download directly, and  online at [rhodyprog4ds.github.io/BrownFall24/syllabus](https://rhodyprog4ds.github.io/BrownFall23/syllabus/). If you choose to download a copy of it, note that it is only a copy. You can get notification of changes from GitHub by "watching" the [repository](https://github.com/rhodyprog4ds/BrownFall23). You can view the date of changes and exactly what changes were made on the Github [commits](https://github.com/rhodyprog4ds/BrownSpring23/commits/main) page.
+This syllabus is a *living*  document and accessible from BrightSpace, as a pdf for download directly, and  online at [rhodyprog4ds.github.io/BrownFall24/syllabus](https://rhodyprog4ds.github.io/BrownFall25/syllabus/). If you choose to download a copy of it, note that it is only a copy. You can get notification of changes from GitHub by "watching" the [repository](https://github.com/rhodyprog4ds/BrownFall25). You can view the date of changes and exactly what changes were made on the Github [commits](https://github.com/rhodyprog4ds/BrownSpring23/commits/main) page.
 
-Creating an [issue on the repository](https://github.com/rhodyprog4ds/BrownFall23/issues) is also a good way to ask questions about anything in the course it will prompt additions and expand the FAQ section.
+Creating an [issue on the repository](https://github.com/rhodyprog4ds/BrownFall25/issues) is also a good way to ask questions about anything in the course it will prompt additions and expand the FAQ section.
 
 
 ## About your instructor
@@ -61,7 +61,7 @@ Whether you use CSC or DSP does not matter.
 ```
 ````
 ```{important}
-For assignment or notes specific issues, a comment on the corresponding repository is the best. I cannot help you with code issues from screenshots. 
+For assignment or notes specific issues, a comment on the corresponding {term}`repository` is the best. I cannot help you with code issues from screenshots. 
 ```
 The best way to contact me for general questions is e-mail or by dropping into my office hours. Please include `[CSC310]` or `[DSP310]` in the subject line of your email along with the topic of your message. This is important, because your messages are important, but I also get a lot of e-mail. Consider these a cheat code to my inbox: I have setup a filter that will flag your e-mail if you use one of those in the subject to ensure that I see it. I rarely check e-mail between 6pm and 9am, on weekends or holidays. You might see me post or send things during these hours, but I will not reliably see emails that arrive during those hours.  
 

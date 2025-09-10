@@ -6,7 +6,7 @@ organizational structure will help keep you on top of what is going on.
 
 
  Your username will be
-appended to the end of of the repository name for each of your assignments in
+appended to the end of of the {term}`repository` name for each of your assignments in
 class.
 
 (resource:file-structure)=
@@ -31,7 +31,7 @@ your portflio, it will make it harder to grade.
 
 ## Finding repositories on github
 
-Each assignment repository will be created on GitHub with the `rhodyprog4ds`
+Each assignment {term}`repository` will be created on GitHub with the `rhodyprog4ds`
 organization as the owner, not your personal acount. Since your account is not
 the owner, they do not show on your profile.
 
@@ -43,7 +43,7 @@ you can search by your username (or the first few characters of it) and see
 only your repositories.
 
 ```{warning}
-Don't try to work on a repository that does not end in your username; those are
+Don't try to work on a {term}`repository` that does not end in your username; those are
 the template repositories for the course and you don't have edit permission on
 them.
 ```

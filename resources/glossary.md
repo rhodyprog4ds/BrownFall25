@@ -4,121 +4,132 @@
 
 ```{glossary}
 
-[aggregate](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.DataFrameGroupBy.aggregate.html#pandas.core.groupby.DataFrameGroupBy.aggregate)
-  to combine data in some way, a function that can produce a customized summary table
+aggregate
+:  to combine data in some way, a function that can produce a customized summary table
+: [more](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.DataFrameGroupBy.aggregate.html#pandas.core.groupby.DataFrameGroupBy.aggregate)
 
-[anonymous function](https://en.wikipedia.org/wiki/Anonymous_function#:~:text=Anonymous%20functions%20are%20often%20arguments,than%20using%20a%20named%20function)
-  a function that's defined on the fly, typically to lighten syntax or return a function within a function. In python, they're defined with the {term}`lambda` keyword.
+anonymous function
+:  a function that's defined on the fly, typically to lighten syntax or return a function within a function. In python, they're defined with the {term}`lambda` keyword.
+:  [docs](https://en.wikipedia.org/wiki/Anonymous_function#:~:text=Anonymous%20functions%20are%20often%20arguments,than%20using%20a%20named%20function)
 
-[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-  a python library used to assist in web scraping, it pulls data from html and xml files that can be parsed in a variety of different ways using different methods.
-
+BeautifulSoup
+:  a python library used to assist in web scraping, it pulls data from html and xml files that can be parsed in a variety of different ways using different methods.
+: [docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 conditional 
-  a logical control to do something, conditioned on something else, for example the `if`, `elif` `else` 
+:  a logical control to do something, conditioned on something else, for example `if`, `elif`, `else` 
 
 
 corpus
-  (NLP) a set of documents for analysis 
+:  (NLP) a set of documents for analysis 
 
 [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-  a data structure provided by pandas for tabular data in python.
+:  a data structure provided by pandas for tabular data in python.
 
 data leakage
-  data from the test set is used in training and then falsely improves the test performance
+:  data from the test set is used in training and then falsely improves the test performance
 
 [dictionary](https://docs.python.org/3/glossary.html#term-dictionary)
-  (data type) a mapping array that matches keys to values. (in NLP) all of the possible tokens a model knows
+:  (data type) a mapping array that matches keys to values. (in NLP) all of the possible tokens a model knows
 
 discriminative 
-  a model that describes the decision rule for labeling a sample as one class or another
+:  a model that describes the decision rule for labeling a sample as one class or another
 
 document
-  unit of text for analysis (one sample). Could be one sentence, one paragraph, or an article, depending on the goal
+:  unit of text for analysis (one sample). Could be one sentence, one paragraph, or an article, depending on the goal
 
 
 error bars
-  typically vertical, but sometimes also horizontal lines on a point in a line graph or bar in  bar chart that indicate the spread of the samples used to create that point or bar height
+:  typically vertical, but sometimes also horizontal lines on a point in a line graph or bar in  bar chart that indicate the spread of the samples used to create that point or bar height
 
 generative
-  a model that describes the data and therefore can also be used to generate new data that looks like the training data. 
+:  a model that describes the data and therefore can also be used to generate new data that looks like the training data. 
 
 gh 
-  GitHub's command line tools
+:  GitHub's command line tools
 
 git
-  a version control tool; it's a fully open source and always free tool, that can be hosted by anyone or used without a host, locally only.
+:  a version control tool; it's a fully open source and always free tool, that can be hosted by anyone or used without a host, locally only.
 
 GitHub
-  a hosting service for git repositories
+:  a hosting service for git repositories
 
 hyperparameter
-  parameters of the learning *algorithm* that are set by the user and possibly optimized over in an outer loop; in `sklearn` these are set when instantiating the estimator object
+:  parameters of the learning *algorithm* that are set by the user and possibly optimized over in an outer loop; in `sklearn` these are set when instantiating the estimator object
 
 index
-  (verb) to index into a data structure means to pick out specified items, for example index into a list or a index into a data frame. Indexing usually invovlees square brackets `[]`
-  (noun) the index of a dataframe is like a column, but it can be used to refer to the rows. It's the list of names for the rows.
+:  (verb) to index into a data structure means to pick out specified items, for example index into a list or a index into a data frame. Indexing usually invovlees square brackets `[]`
+:  (noun) the index of a dataframe is like a column, but it can be used to refer to the rows. It's the list of names for the rows.
 
 interpreter
-  the translator from human readable python code to something the computer can run.  An interpreted language means you can work with python interactively
+:  the translator from human readable python code to something the computer can run.  An interpreted language means you can work with python interactively
 
 iterate
-  To do the same thing to each item in an {term}`iterable` data structure, typically, an iterable type. Iterating is usually described as iterate over some data structure and typically uses the `for` keyword
+:  To do the same thing to each item in an {term}`iterable` data structure, typically, an iterable type. Iterating is usually described as iterate over some data structure and typically uses the `for` keyword
 
-[iterable](https://docs.python.org/3/glossary.html#term-iterable)
-  any object in python that can return its members one at a time. The most common example is a list, but there are others.
+iterable
+:  any object in python that can return its members one at a time. The most common example is a list, but there are others.
+:  [docs](https://docs.python.org/3/glossary.html#term-iterable)
 
 kernel
-  in the jupyter environment, [the kernel](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html#kernel) is a language specific computational engine
+:  in the jupyter environment, [the kernel](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html#kernel) is a language specific computational engine
 
-[lambda](https://docs.python.org/3.9/reference/expressions.html#lambda)
-  they keyword used to define an anonymous function; lambda functions are defined with a compact syntax `<name> = lambda <parameters>: <body>`
+lambda
+:  the keyword used to define an anonymous function; lambda functions are defined with a compact syntax `<name> = lambda <parameters>: <body>`
+: [docs](https://docs.python.org/3.9/reference/expressions.html#lambda)
 
 numpy array 
-  a type provided by [numpy]() to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
+:  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
+:  [](xref:numpy#reference/arrays.ndarray)
 
-[PEP 8](https://www.python.org/dev/peps/pep-0008/pep-0008/)
-  [Python Enhancement Proposal](https://www.python.org/dev/peps/) 8, the Style Guide for Python Code.
+PEP 8
+:  [Python Enhancement Proposal](https://www.python.org/dev/peps/) 8, is the Style Guide for Python Code.
+:  [pep 8 ](https://www.python.org/dev/peps/pep-0008/pep-0008/)
 
 repository
-  a project folder with tracking information in it in the form of a .git file
+:  a project folder with tracking information in it in the form of a .git file
 
-[Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html)
-  a data structure provided by pandas for single columnar data with an index.  Subsetting a Dataframe or applying a function to one will often produce a Series
+Series
+:  a data structure provided by pandas for single columnar data with an index.  Subsetting a Dataframe or applying a function to one will often produce a Series
+:  [docs](xref:pandas#pandas.Series)
 
 shape
-  of a dataframe, or matrix is the number of rows and columns. 
+:  of a dataframe, or matrix is the number of rows and columns. 
 
-[Split Apply Combine](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#group-by-split-apply-combine)
-  a paradigm for splitting data into groups using a column, applying some function(aggregation, transformation, or filtration) to each piece and combinging in the individual pieces back together to a single table
+slice
+:  a subset of an iterable item based on the start, stop, and step
+:  implemented by the [slice](https://docs.python.org/3/library/functions.html#slice) built in
+
+Split Apply Combine
+:  a paradigm for splitting data into groups using a column, applying some function(aggregation, transformation, or filtration) to each piece and combinging in the individual pieces back together to a single table
+:  [pandas guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#group-by-split-apply-combine)
 
 stop words
-  Words that do not convey important meaning, we don’t need them (like a, the, an,). Note that this is context dependent. These words are removed when transforming text to numerical representation
+:  Words that do not convey important meaning, we don’t need them (like a, the, an,). Note that this is context dependent. These words are removed when transforming text to numerical representation
 
 suffix
-  additional part of the name that gets added to end of a name in a merge operation
+:  additional part of the name that gets added to end of a name in a merge operation
 
 test accuracy
-  percentage of predictions that the model predict correctly, based on held-out (previously unseen) test data
+:  percentage of predictions that the model predict correctly, based on held-out (previously unseen) test data
 
-[Tidy Data Format](https://www.jstatsoft.org/article/view/v059i10)
-  Tidy data is a database format that ensures data is easy to manipulate, model and visualize.
-  The specific rules of Tidy Data are as follows: Each variable is a column,
-  each row is an observation, and each observable unit is a table.
+Tidy Data Format
+: Tidy data is a database format that ensures data is easy to manipulate, model and visualize. The specific rules of Tidy Data are as follows: Each variable is a column, each row is an observation, and each observable unit is a table.
+:  [original paper](https://www.jstatsoft.org/article/view/v059i10)
 
 token
-  a sequence of characters in some particular document that are grouped together as a useful semantic unit for processing (typically a word, but more gneeral)
+:  a sequence of characters in some particular document that are grouped together as a useful semantic unit for processing (typically a word, but more gneeral)
 
 TraceBack
-  an error message in python that traces back from the line of code that had caused the exception back through all of the functions that called other functions to reach that line. This is sometimes call tracing back through the stack
+:  an error message in python that traces back from the line of code that had caused the exception back through all of the functions that called other functions to reach that line. This is sometimes call tracing back through the stack
 
 training accuracy
-  percentage of predictions that the model predict correctly, based on the training data
+:  percentage of predictions that the model predict correctly, based on the training data
 
 transpose
-  swap the rows and columns of a matrix or dataframe
+:  swap the rows and columns of a matrix or dataframe
 
 Web Scraping
-  the process of extracting data from a website. In the context of this class, this is usually done using
-  the python library beautiful soup and a html parser to retrieve specific data.
+:  the process of extracting data from a website. In the context of this class, this is usually done using
+:  the python library beautiful soup and a html parser to retrieve specific data.
 ```

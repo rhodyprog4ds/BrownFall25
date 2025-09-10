@@ -54,7 +54,7 @@ on:
   push:
     branches:
     - main
-    # If your git repository has the Jupyter Book within some-subfolder next to
+    # If your git {term}`repository` has the Jupyter Book within some-subfolder next to
     # unrelated files, you can make this run only if a file within that specific
     # folder has been modified.
     #
@@ -95,7 +95,7 @@ jobs:
         # Default: author of the commit that triggered the run
         author_email: you@uri.edu
 
-        # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
+        # The local path to the directory where your {term}`repository` is located. You should use actions/checkout first to set it up
         # Default: '.'
         cwd: '.'
 
@@ -132,7 +132,7 @@ The summary of for the `part` or whole submission, should match the skills to th
 ## Data Files
 
 Also note that for your portfolio to build, you will have to:
--  include the data files in the repository and use a relative path OR
+-  include the data files in the {term}`repository` and use a relative path OR
 -  load via url
 
 using a full local path(eg that starts with `///file:`) **will not work** and will render your portfolio unreadable.
@@ -188,7 +188,7 @@ This means if you accept suggestion commits from the the `.md` file, the action 
 
 ## Adding annotations with formatting or margin notes
 
-You can either install [jupytext](https://jupytext.readthedocs.io/en/latest/install.html) and convert locally or upload /push a notebook to your repository and let GitHub convert.  
+You can either install [jupytext](https://jupytext.readthedocs.io/en/latest/install.html) and convert locally or upload /push a notebook to your {term}`repository` and let GitHub convert.  
 Then edit the .md file with a [text editor](texteditor) of your choice. You can run by uploading if you don't have jupytext installed, or locally if you have installed jupytext or jupyterbook.
 
 In your .md file use backticks to mark [special content blocks](https://jupyterbook.org/content/content-blocks.html)
