@@ -24,12 +24,6 @@ This assignment relies on somethings that we will learn on Sept 11.
 Remember that your code always has to adhere to the course [style guide](#style:hard). Small violations may receive a warning, but major violations will not be evaluated.  This means no progress toward your grade **and** no tips about any other errors. 
 ::::::
 
-## Todo 
-
-
-1. Create a python module called `my_datasets`
-
-
 
 ## Setting
 
@@ -44,7 +38,8 @@ Next week, we are going to learn about summarizing data. In this assignment, you
 ### Set up your Portfolio
 
 1. Create your portfolio {term}`repository` by accepting the assignment from the [course organization page](https://github.com/rhodyprog4ds) 
-1. Fill in the `about` information 
+1. Fill in the two files in the `about` folder
+
 
 ### Find Datasets
 
@@ -76,7 +71,7 @@ Create a list of dictionaries in `datasets.py`, so that there is one dictionary 
 
 ```
 
-## Make a dataset about your datasets
+### Make a dataset about your datasets
 
 ````{margin}
 ```{hint}
@@ -111,7 +106,7 @@ Use only pandas methods or attributes for these
   - number of numerical variables in the dataset
 ```
 
-## Explore Your Datasets
+### Explore Your Datasets
 
 
 In a second notebook file called `exploration.ipynb`: 
@@ -132,3 +127,13 @@ For any other dataset:
 For the third dataset:
 - read it in from your local csv using a relative path
 - display the first 3 multiples of 3 rows (eg 3,6,9) of the data for two columns of your choice
+
+
+### Upload (or push) Your notebook and py files
+
+Add the files to your portfolio repository. 
+
+::::{warning}
+If we do not discuss how to do this on Sept 11, we will on Sept 16. If you are not sure, work on the steps above and then we will help you get the files uploaded. 
+::::
+

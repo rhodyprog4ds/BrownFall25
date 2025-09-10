@@ -15,7 +15,7 @@ kernelspec:
 
 Patterns and examples of how to use common tips in class
 
-
+(brackets)=
 ## How to use brackets
 
 ```{list-table}
@@ -85,4 +85,16 @@ df['A'][1]
 
 ```{code-cell} ipython3
 df.iloc[0][1]
+```
+
+(mdheading)=
+## Markdown Headings
+
+To create a heading in a notebook, make a a line that starts with a `#`
+
+```markdown
+# This is a main title
+## This is a sub heading
+### sub sub heading
+## sub heading
 ```

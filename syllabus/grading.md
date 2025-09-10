@@ -39,7 +39,7 @@ Grading this way also is more amenable to the fact that there are correct and in
 ## How it works
 
 ```{warning}
-This is a significant revision, so this is the first time with this grading scheme, some things may get updated as we go. They will be announced clearly and will be in students' favor.  
+This is a significant revision, so this is the first time with this grading scheme, some things may get updated as we go. They will be announced clearly and will be in students' favor in general.  
 ```
 
 Different activities will be an opportunity to demonstrate your *level of competency* at a specific *objective* for the course. These will be converted into your grade. 
@@ -47,7 +47,7 @@ Different activities will be an opportunity to demonstrate your *level of compet
 
 The Objectives are:
 - *experience*: gain hands on experience with data science- earned by answering prismia questions
-- *communication*: effective communication with data - earned in assignments and extensions
+- *communication*: effective communication with data and code - earned in assignments and extensions
 - *data manipulation*: manipulating data - earned in assignments and extensions
 - *exploratory data analysis*: explore data, get preliminary insights - earned in assignments and extensions
 - *modeling*: build models with data - earned in assignments and extensions
@@ -56,28 +56,25 @@ The Objectives are:
 
 There will be multiple opportunities to demonstrate each objective. 
 
-### Evaluation Rubrics
 
-#### Experience 
+
+### Experience 
 
 - absent: not in class, not made up, or no answers in prismia
 - present: in class and questions answered, even if not correct or class made up
 - active: in class and most questions answered correctly or class made up
 
-#### Data, EDA, Modeling
+### Data, EDA, Modeling
 
 - unattempted: not submitted or significant [style](#style:hard) violations
-- partial: good faith attempt, but not quite complete understanding
-- complete: good, correct understanding at a basic level
-- innovative: in depth analysis 
+- partial: good faith attempt, but not quite complete understanding **some assigments may only be eligible for partial demonstration of an objective**
+- complete: good, correct understanding at a basic level **assigments are generally designed for compelte demonstration of an objective**
+- innovative: in depth analysis **required to earn above a B, generally in extensions of assignments**
 
 
+## Activities
 
-
-```{margin}
-This is a hard cutoff, but I have never had a student who consistently submitted work end up below a C, unless they were told an early assignment earned no credit and then did not use the feedback and submitted at least 4 more assignments with the same errors. I have never had a student earn level 3s and end up below a B who submitted **any** work in the second half of the semester.  
-
-```
+The activities are what you will *do* to demonstrate your learning. 
 
 ### Participation
 
@@ -89,27 +86,25 @@ After each class you will add your in class notebook to your portfolio.
 ### Assignments
 
 For your learning to progress, you will practice with the skills outside of class time. You will submit all of your assignments in your portfolio repository.  All instructions will be posted on this site. 
-<!-- 
-````{margin}
-```{warning}
-If you will skip an assignment, please accept the GitHub assignment and then close the Feedback pull request with a comment. This way we can make sure that you have support you need.
-```
-```` 
--->
 
-Assignments will each evaluate certain objectives. After your assignment is reviewed, you will get qualitative feedback on your work, and an assessment of your demonstration of the targeted skills. In general you will earn either progressing or complete for the applicable objectives in an assignment.  
+
+
+Assignments will each evaluate certain objectives. After your assignment is reviewed, you will get qualitative feedback on your work, and an assessment of your demonstration of the targeted skills. In general you will earn either partial or complete for the applicable objectives in an assignment.  
 
 These are the assignments where you *can* earn **complete** on each objective. 
 :::::{csv-table}
 :header: outcome,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
 
-process,,,,,✅,✅,✅,✅,✅,✅
+process,🟨,🟨,🟨,🟨,✅,✅,✅,✅,✅,✅
 communication,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
 data,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
 modeling,,,,,,,✅,✅,✅,✅
-exploratory,,,✅,✅,✅,✅,✅,✅,✅,✅
+exploratory,🟨 ,✅,✅,✅,✅,✅,✅,✅,✅,✅
 
 :::::
+
+- 🟨 indicates you can at most earn partial
+- ✅ inidcates you can earn compelte
 
 You *can* revise assignments if you do not earn achievements. Revisions need to include reflections about what you misunderstood and how you fixed it. 
 
@@ -128,7 +123,7 @@ After you practice with a concept at a basic level in assignments, you can exten
 +++
 
 (grade:calculation)=
-## Detailed mechanics
+## Grade Calculation
 
 
 For communication and process you need to show continued progess. For modeling, exploratory, and data you need to have analyses that are compelte most of the time and a smaller number of innovative analyses.  
@@ -154,7 +149,7 @@ exploratory,complete,    6,6,6,6,5,4,3,2,1,1,0
 
 These are all minimums and "or better" applies, so innovative ratings count toward the count of complete ratings, but not the other way around.  `Partial` ratings only impact your grade for process and communication. For other objectives you might receive a rating or partial to acknowledge that you made some progress, but you will need to reach complete for your grade.  
 
-
+Your grade will go up slowly, but it can only go up.  It is **not** an average
 
 
 

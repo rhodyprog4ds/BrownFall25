@@ -90,6 +90,8 @@ numpy array
 :  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
 :  [](xref:numpy#reference/arrays.ndarray)
 
+
+
 PEP 8
 :  [Python Enhancement Proposal](https://www.python.org/dev/peps/) 8, is the Style Guide for Python Code.
 :  [pep 8 ](https://www.python.org/dev/peps/pep-0008/pep-0008/)
@@ -103,6 +105,9 @@ Series
 
 shape
 :  of a dataframe, or matrix is the number of rows and columns. 
+
+side effect
+:  an action that occurs in a function (like printing or writing a file) other than it returning a vlaue
 
 slice
 :  a subset of an iterable item based on the start, stop, and step
