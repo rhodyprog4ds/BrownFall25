@@ -1,134 +1,134 @@
+# Assignment 1: Portfolio Setup
 
-# Assignment 1: Setup, Syllabus, and Review
+::::{important} Key facts
 
-__Due: 2024-09-10 2:00pm__ 
+Due: 2025-09-18
+To accept the assignment, you have to have already joined the course organization 
+:::::
 
-```{warning}
-You must *complete* it by 2pm on Tuesday, but if you are confused on anything from the syllabus put `question: <your question here>`, replacing the `<>` part with our actual question in that section and then ask in class. There will be time in class to make revisions to your work before it is officially graded. 
 
-I will be reading everything before class (and I can use GitHub timestamps to see what was done before and later)
+## Related Notes
+
+- [](../notes/2025-09-04.md)
+- [](../notes/2025-09-09.md)
+- [](../notes/2025-09-11.md) 
+
+
+:::{warning}
+
+This assignment relies on somethings that we will learn on Sept 11. 
+::::
+
+
+:::::::{important}
+Remember that your code always has to adhere to the course [style guide](#style:hard). Small violations may receive a warning, but major violations will not be evaluated.  This means no progress toward your grade **and** no tips about any other errors. 
+::::::
+
+## Todo 
+
+
+1. Create a python module called `my_datasets`
+
+
+
+## Setting
+
+Next week, we are going to learn about summarizing data. In this assignment, you are going to build a small dataset about datasets. In class next week, we will combine all of your datasets about datasets together in order to be able to answer questions like:
+
+- how much total data did you all load
+- how many students picked the same dataset?
+- how many total rows of data did each student load?
+
+## Steps
+
+### Set up your Portfolio
+
+1. Create your portfolio {term}`repository` by accepting the assignment from the [course organization page](https://github.com/rhodyprog4ds) 
+1. Fill in the `about` information 
+
+### Find Datasets
+
+Find 3 [datasets](#data:basic) of interest to you that are provided in at least two different file formats. Choose datasets that are not too big, so that they do not take more than a few second to load. At least one dataset, must have non numerical (eg string or boolean) data in at least 1 column.
+
+In your notebook, create a markdown cell for each dataset that includes:
+- heading of the dataset's name
+- a 1-2 sentence summary of what the dataset contains and why it was collected
+- a "more info" link to where someone can learn about the dataset
+- 1-2 questions you would like to answer with that dataset.
+
+:::::{important}
+For this assignment, Kaggle and UCI datasets will not work, you have to be able to load the dataset from URL
+::::::
+
+### Store them for loading
+
+Create a list of dictionaries in `datasets.py`, so that there is one dictionary for each dataset. Each dictionary should have the following keys:
+
+```{list-table} Meta Data Description of the dictionary to create
+:header-rows:0
+
+*- `url`
+  - the full url of the dataset
+* - `short_name`
+  - a short name
+* - `load_function`
+  - (the actual function handle) what function should be used to load the data into a `pandas.DataFrame`.
+
 ```
 
-## Evaluation 
-Eligible skills:
-- Python
-- Process
-
-## Related notes
-
-
-- [](../notes/2024-09-05)
-  
-## Instructions
-
-<!-- ````{margin}
-```{note}
-After accepting the assignment and creating a repository, create an issue on your repository, describing what you're stuck on and tag us with `@rhodyprog4ds/instructors`.
-
-To do this click Issues at the top, the green "New Issue" button and then type away.
-```
-```` 
--->
-
-```{important}
-If you have trouble, check the GitHub FAQ on the left first
-````
-
-Your task is to:
-1. Install required software from the Tools & Resource page (should have been done before the first class)
-2. Create your portfolio, using the link on Brightspace
-3. Learn about your portfolio from the README file on your repository.
-4. Follow instructions in the README to make your portfolio your own with information about yourself(completeness only) and your own definition of data science (graded for **level 1 process**)
-5. complete the `success.md` file as per the instructions in the comments in that file (it is a syllabus quiz)
-6. Create a Jupyter notebook called `grading.ipynb` and write a function that computes a grade for this course, with the  docstring below. Your notebook will need to follow the [course style guide](../syllabus/style.md), following style from other courses will not earn credit. 
-7. In the same notebook, iterate over the example anonymized gradebook below and compute a grade for each one. 
-8. Upload your  `grading.ipynb` file to your portfolio ([upload to main branch](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-on-github)). 
-<!-- 
-1. [Upload the notebook to your repo](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) directly on the main branch. 
-2. Add the line `  - file: grading` in your `_toc.yml` file. 
-
-
-the syntax of the line added to your `_toc.yml` has to be exact
-
-
--->
-
-```{warning}
-Do not merge your "Feedback" Pull Request
-````
-
-
-### Docstring
-
-```Python
-    '''
-    Computes a grade for CSC/DSP310 from numbers of achievements at each level
-
-    Parameters:
-    ------------
-    level1_acheivements : int
-      number of level 1 achievements earned
-    level2_acheivements : int
-      number of level 2 achievements earned
-    level3_acheivements : int
-      number of level 3 achievements earned
-
-    Returns:
-    --------
-    letter_grade : string
-      letter grade with possible modifier (+/-)
-    '''
-```
-
-### Students to check
-
-Treat this list of lists as a gradebook and use your function to compute a grade for each one and store them all to a list. 
-
-```Python
-acheivements_only = [[15,14,1],[15,15,10],[12,12,12]]
-```
-
-
-## Help 
-(optional, but useful information)
-### Sample tests 
-
-Here are some sample tests you could run to confirm that your function works correctly, they are in one block here, but you should run them one at a time and with text between:
-
+## Make a dataset about your datasets
 
 ````{margin}
-```{warning}
-remember the difference between side effects and returns
-```
-
-
-```{note}
-when the value of the expression after `assert` is `True`, it will look like nothing happened. `assert` is used for testing
+```{hint}
+See the [python module docs for examples](https://docs.python.org/3/tutorial/modules.html#modules)
 ```
 ````
 
+In a notebook called `dataset_of_datasets.ipynb`, import the list of dictionaries from the `datasets` module you created in the step above. 
+Then {term}`iterate` over the list of dictionaries, and for each:  
 
-```Python
-assert compute_grade(15,15,15) == 'A'
+1. load each dataset like using the function from the dictionary
+1. save it to a local csv using the short name you provided for the dataset as the file name, without writing the index column to the file.
+1. record attributes about the dataset as in the table below in a list or dictionary  of lists 
+1. Use that to create a [DataFrame](https://pandas.pydata.org/docs/reference/frame.html) with columns that match the rows of the following table.
 
-assert compute_grade(15,15,13) == 'A-'
+::::{hint}
+Use only pandas methods or attributes for these
+::::
 
-assert compute_grade(15,14,14) == 'B-'
+```{list-table} Meta Data Description of the DataFrame to build
+:header-rows:0
 
-assert compute_grade(14,14,14) == 'C-'
-
-assert compute_grade(4,3,1) == 'D'
-
-assert compute_grade(15,15,6) =='B+'
+* - name
+  - a short name for the dataset
+* - source
+  - a url to where you found the data
+* - num_rows
+  - number of rows in the dataset
+* - num_columns
+  - number of columns in the dataset
+* - num_numerical
+  - number of numerical variables in the dataset
 ```
 
-### Notebook Checklist 
+## Explore Your Datasets
 
 
- -  a Markdown cell with a heading
- - your function called `compute_grade`
- - three calls to your function that verify it returns the correct value for different number of badges that produce at three different letter grades.
- - markdown cells with explanation of the calls and anything else so that the notebook reads like a report. 
+In a second notebook file called `exploration.ipynb`: 
+
+For one dataset that includes nonnumerical data:
+- read it in from your local csv using a relative path
+- {term}`display` the header with the last 7 rows
+- make a numpy array of only the numerical data and save it to a new variable (select these programmatically, without hardcoding the column names)
+- was the format that the data was provided in a good format? why or why not?
 
 
+For any other dataset:
+- read it in from your local csv using a relative path
+- {term}`display` the heading with the first two rows
+- {term}`display` the datatype for each column
+- Are there any variables where pandas may have read in the data as a datatype that's not what you expect (eg a numerical column mistaken for strings)? If so, investigate and try to figure out why.
 
+For the third dataset:
+- read it in from your local csv using a relative path
+- display the first 3 multiples of 3 rows (eg 3,6,9) of the data for two columns of your choice

@@ -4,18 +4,20 @@
 This page is a semi-curated source of datasets for use in assignments.  The different sections have datasets that are good for different assignments.
 
 
-(basic-datasets)=
+(data:basic)=
 ## Best for loading directly into a notebook
-- [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data) inside the folder for each year there is a README file with list of the datasets. These are .csv files
+- [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday/tree/main/data) inside the folder for each year there is a README file with list of the datasets. These are .csv files
 - [Json Datasets](https://github.com/jdorfman/awesome-json-datasets)
 - [National Center for Education Statistics Digest 2019](https://nces.ed.gov/programs/digest/d19/tables_3.asp) These data tables are available for download as excel and visible on the page.
-- Lots of wikipedia pages have tables in them.
+- Lots of [wikipedia](wikipedia.org/) pages have tables in them. For example, [all time Celtics Rosters](https://en.wikipedia.org/wiki/Boston_Celtics_all-time_roster), [US universities by endowment](https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_the_United_States_by_endowment), or [carbon emissions](https://en.wikipedia.org/wiki/List_of_locations_and_entities_by_greenhouse_gas_emissions)
 
 
 (messy-data)=
 ## Cleaning Examples
 
-
+::::{warning}
+some fo these might be broken links. Create an issue if any are broken
+:::::
 
 - [Messy Artists](https://raw.githubusercontent.com/rhodyprog4ds/rhodyds/main/data/messy_artist.csv) .csv file, that needs to be cleaned, containing data on artists
 - [Messy Wheels](https://raw.githubusercontent.com/rhodyprog4ds/rhodyds/main/data/messy_wheels.csv) .csv file, that needs to be cleaned, containing data on various wheel attractions around the globe
@@ -29,6 +31,7 @@ This page is a semi-curated source of datasets for use in assignments.  The diff
 - [NYT Data Preparation document](https://data.post45.org/wp-content/uploads/2022/01/NYT-Data-Description.pdf)
 - [Corporate Repuation Rankings](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-05-31)
 
+(data:general)=
 ## General Sources
 
 These may require some more work
@@ -40,6 +43,7 @@ These may require some more work
 - [A curated list of datasets by task](https://www.springboard.com/blog/data-science/15-fun-datasets-to-analyze/) It includes datasets for cleaning, visualization, machine learning, and "data analysis" which would align with EDA in this course.
 - [Hugging Face NLP Datasets](https://huggingface.co/datasets) lots of text datasets
 
+(data:parts)=
 ## Datasets in many parts
 - [Makeup Shades](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-03-30)
 - [Kenya Census](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-01-19)
@@ -54,9 +58,11 @@ These may require some more work
 - [character psychometrics](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-16)
 - [weather forecast accuracy](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-12-20)
 
+(data:time)=
 ## Datasets with time
 - [Superbowl commercials](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-03-02)
 
+(data:databases)=
 ## Databases
 
 - [SQLite Databases](http://2016.padjo.org/tutorials/sqlite-data-starterpacks/)

@@ -66,6 +66,8 @@ project:
     - local.sh
     - _data/**
     - notes/*.csv
+    - notes/*.sqlite
+    - notes/*.py
     
 site:
   template: book-theme
