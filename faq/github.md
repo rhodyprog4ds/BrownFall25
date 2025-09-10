@@ -1,11 +1,6 @@
 # Git and GitHub
 
 
-<!--
-````{toggle}
-
-````
- -->
 ## I can't push to my repository, I get an error that updates were rejected
 
 

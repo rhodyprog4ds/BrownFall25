@@ -16,6 +16,10 @@ BeautifulSoup
 :  a python library used to assist in web scraping, it pulls data from html and xml files that can be parsed in a variety of different ways using different methods.
 : [docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+
+cast
+:  convert a variable from one type to another. in Python, done by using the constructor method of the object type or builtin function for builtin types
+
 conditional 
 :  a logical control to do something, conditioned on something else, for example `if`, `elif`, `else` 
 
@@ -29,11 +33,16 @@ corpus
 data leakage
 :  data from the test set is used in training and then falsely improves the test performance
 
-[dictionary](https://docs.python.org/3/glossary.html#term-dictionary)
-:  (data type) a mapping array that matches keys to values. (in NLP) all of the possible tokens a model knows
+dictionary
+:  (data type) a mapping array that matches keys to values. [doc](https://docs.python.org/3/glossary.html#term-dictionary)
+:   (in NLP) all of the possible tokens a model knows
 
 discriminative 
 :  a model that describes the decision rule for labeling a sample as one class or another
+
+diplay
+:  in jupyter notebooks, an HTML rendering of the output of a cell
+
 
 document
 :  unit of text for analysis (one sample). Could be one sentence, one paragraph, or an article, depending on the goal

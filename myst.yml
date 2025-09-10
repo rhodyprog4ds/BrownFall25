@@ -34,6 +34,7 @@ project:
         - pattern: 'notes/2025-*.md'
     - title: Assignments
       children: []
+        - pattern: 'assignments/*-*.md'
     - title: Portfolio
       children:
         - file: portfolio/index.md
