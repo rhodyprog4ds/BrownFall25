@@ -22,7 +22,7 @@ This assignment relies on somethings that we will learn on Sept 11.
 
 :::::::{important}
 Remember that your code always has to adhere to the course [style guide](#style:hard). Small violations may receive a warning, but major violations will not be evaluated.  This means no progress toward your grade **and** no tips about any other errors. 
-::::::
+::::::::
 
 
 ## Setting
