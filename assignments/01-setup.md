@@ -3,7 +3,7 @@
 ::::{important} Key facts
 
 Due: 2025-09-18
-To accept the assignment, you have to have already joined the course organization 
+submission in class on 9/18
 :::::
 
 
@@ -36,6 +36,10 @@ Next week, we are going to learn about summarizing data. In this assignment, you
 ## Steps
 
 ### Set up your Portfolio
+
+:::{warning}
+We will submit the assignment and do these steps in class
+:::
 
 1. Create your portfolio {term}`repository` by accepting the assignment from the [course organization page](https://github.com/rhodyprog4ds) 
 1. Fill in the two files in the `about` folder
