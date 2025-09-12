@@ -130,6 +130,7 @@ For communication and process you need to show continued progess. For modeling, 
 
 ::::::::{csv-table} Minimum evaluations for each grade
 :header: outcome,level,A,A-,B+,B,B-,C+,C,C-,D+,D,F
+:label: minevals
 
 experience,active,15,15,15,15,10,10,10,5,5,5,0
 experience,present,22,22,22,22,22,22,22,22,22,22,0

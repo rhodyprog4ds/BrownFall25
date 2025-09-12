@@ -31,7 +31,7 @@ Seeing the BrightSpace site requires loging in with your URI SSO and being enrol
 ```
 ````
 This will be the central location from which you can access links to other materials.
-Any links that are for private discussion among those enrolled in the course will be available only from our course Brightspace site.
+Any links that are for private discussion among those enrolled in the course will be available only from our course [Brightspace site](https://brightspace.uri.edu/d2l/home/226416).
 
 <!-- 
 For announcements, you can [customize](https://documentation.brightspace.com/EN/le/announcements/learner/enable_notifications_in_announcements.htm) how you receive them. -->
@@ -47,7 +47,7 @@ On Prismia, all students see the instructor's messages, but only the Instructor 
 ## Course website
 
 The course manual will have content including the class policies, scheduling, class notes, assignment information, and additional resources.
-This will be linked from Brightspace and available publicly online at [rhodyprog4ds.github.io/BrownFall25/](https://rhodyprog4ds.github.io/BrownFall25/).
+This will be linked from Brightspace and available publicly online at [rhodyprog4ds.github.io/BrownSpring23/](https://rhodyprog4ds.github.io/BrownFall25/).
 Links to the course reference text and code documentation will also be included here in the assignments and class notes.
 
 ## GitHub
@@ -62,7 +62,7 @@ You will need a [GitHub](https://github.com/) Account. If you do not already hav
 This a programming course, so you will need a programming environment. In order to complete assignments you need the items listed in the requirements list. The easiest way to meet these requirements is to follow the recommendations below. I will provide instruction assuming that you have followed the recommendations.
 
 #### Requirements:
-- Python with packages (numpy, scipy, jupyter, pandas, seaborn, sklearn)
+- Python with packages 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - A web browser compatible with [Jupyter Notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/install.html#step-0-the-browser)
 <!-- - Openrefine -->
@@ -79,11 +79,28 @@ Everything in this class will be tested with the up to date (or otherwise specif
 
 #### Recommendation:
 
+(pythoninstall)=
+##### Python
 
-- For python [use the Carpentries instructions](https://carpentries.github.io/workshop-template/install_instructions/#python-1) but use this [class environment file](https://raw.githubusercontent.com/rhodyprog4ds/BrownFall25/refs/heads/main/rhodyds_environment.yml). 
+See more detailed [per OS instructions](https://carpentries.github.io/workshop-template/install_instructions/#python-1) but use the file below instead of the carpentries environment file
+
+1. Install `conda` from [conda forge](https://conda-forge.org/download/)
+1. Download the class environment file: {download}`../rhodyds_environment.yml` 
+1. in your terminal (default on mac/linux, miniforge prompt on windows), `cd` to where the file is (likely `cd Downloads`)
+1. then run `conda env create -f rhodyds_environment.yml`
+1. use `conda activate rhodyds` to use all of the libraries
+
+
+If you do not want to use conda and have `pip` working you can also use the requirements file: {download}`../requirements.txt`  (it has some extra things that are only needed for the website, but should be good) with `pip install -r requirements.txt` (or `pip3`)
+
+
+###### git
 - if you use Windows, install Git with [GitBash](https://gitforwindows.org/) ([video instructions](https://youtu.be/339AEqk9c-8)).
 - if you use MacOS, install Git with the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this by trying to run git from the Terminal the very first time.`git --version`
-- if you use Chrome OS, follow these instructions:
+
+
+##### Chrome OS
+if you use Chrome OS, follow these instructions:
 1. Find Linux (Beta) in your settings and turn that on.
 2. Once the download finishes a Linux terminal will open, then enter the commands: sudo
 apt-get update and sudo apt-get upgrade. These commands will ensure you are up to
@@ -136,7 +153,7 @@ Video install instructions for Anaconda:
 On Mac,  to install python via environment, [this article may be helpful](https://opensource.com/article/19/5/python-3-default-mac)
 - I don't have a video for linux, but it's a little more straight forward.
 
-### Textbook
+## Textbook
 
 The text for this class is a reference book and will not be a source of assignments. It will be a helpful reference and you may be directed there for answers to questions or alternate explanations ot topics.
 
@@ -144,9 +161,7 @@ Python for Data Science is available free [online](https://jakevdp.github.io/Pyt
 
 
 
-
-
-### Zoom (backup and office hours only)
+## Zoom (backup and office hours only)
 
 [^tldr]: Too long; didn't read.
 

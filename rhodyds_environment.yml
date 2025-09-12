@@ -1,4 +1,4 @@
-name: rhodyds_environment
+name: rhodyds
 channels:
   - conda-forge
 dependencies:

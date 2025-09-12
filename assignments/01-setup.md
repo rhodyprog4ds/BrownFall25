@@ -2,8 +2,8 @@
 
 ::::{important} Key facts
 
-Due: 2025-09-18
-submission in class on 9/18
+- Due: 2025-09-18
+- submission in class on 9/18
 :::::
 
 
@@ -13,11 +13,6 @@ submission in class on 9/18
 - [](../notes/2025-09-09.md)
 - [](../notes/2025-09-11.md) 
 
-
-:::{warning}
-
-This assignment relies on somethings that we will learn on Sept 11. 
-::::
 
 
 :::::::{important}
@@ -38,7 +33,7 @@ Next week, we are going to learn about summarizing data. In this assignment, you
 ### Set up your Portfolio
 
 :::{warning}
-We will submit the assignment and do these steps in class
+We will submit the assignment and do these steps in class 9/18
 :::
 
 1. Create your portfolio {term}`repository` by accepting the assignment from the [course organization page](https://github.com/rhodyprog4ds) 
@@ -47,7 +42,7 @@ We will submit the assignment and do these steps in class
 
 ### Find Datasets
 
-Find 3 [datasets](#data:basic) of interest to you that are provided in at least two different file formats. Choose datasets that are not too big, so that they do not take more than a few second to load. At least one dataset, must have non numerical (eg string or boolean) data in at least 1 column.
+Find 3 [datasets](#data:basic) of interest to you that are provided in at least two different file formats. Choose datasets that are not too big, so that they do not take more than a few second to load. At least one dataset must have non numerical (eg string or boolean) data in at least 1 column.
 
 In your notebook, create a markdown cell for each dataset that includes:
 - heading of the dataset's name
@@ -56,23 +51,23 @@ In your notebook, create a markdown cell for each dataset that includes:
 - 1-2 questions you would like to answer with that dataset.
 
 :::::{important}
-For this assignment, Kaggle and UCI datasets will not work, you have to be able to load the dataset from URL
+For this assignment, Kaggle and UCI datasets will not work, you **must** to be able to load the dataset from URL. We want to be able to run your submitted code, without you adding any data files to your repository. 
 ::::::
 
 ### Store them for loading
 
-Create a list of dictionaries in `datasets.py`, so that there is one dictionary for each dataset. Each dictionary should have the following keys:
+Create a list of dictionaries in `datasets.py`, so that there is one dictionary for each dataset. Each dictionary should have the keys specified in {ref}`dict_meta`
 
 ```{list-table} Meta Data Description of the dictionary to create
-:header-rows:0
+:header-rows: 0
+:label: dict_meta
 
-*- `url`
+* - `url`
   - the full url of the dataset
 * - `short_name`
   - a short name
 * - `load_function`
   - (the actual function handle) what function should be used to load the data into a `pandas.DataFrame`.
-
 ```
 
 ### Make a dataset about your datasets
@@ -88,15 +83,16 @@ Then {term}`iterate` over the list of dictionaries, and for each:
 
 1. load each dataset like using the function from the dictionary
 1. save it to a local csv using the short name you provided for the dataset as the file name, without writing the index column to the file.
-1. record attributes about the dataset as in the table below in a list or dictionary  of lists 
+1. record attributes about the dataset as in {ref}`df_meta` in a list of lists or dictionary of lists 
 1. Use that to create a [DataFrame](https://pandas.pydata.org/docs/reference/frame.html) with columns that match the rows of the following table.
 
 ::::{hint}
-Use only pandas methods or attributes for these
+Use only `pandas` methods or attributes for these
 ::::
 
 ```{list-table} Meta Data Description of the DataFrame to build
-:header-rows:0
+:header-rows: 1
+:label: df_meta
 
 * - name
   - a short name for the dataset
@@ -135,9 +131,10 @@ For the third dataset:
 
 ### Upload (or push) Your notebook and py files
 
-Add the files to your portfolio repository. 
-
 ::::{warning}
-If we do not discuss how to do this on Sept 11, we will on Sept 16. If you are not sure, work on the steps above and then we will help you get the files uploaded. 
+We will use class time on Sept 18 to do this
 ::::
+
+
+Add the files to your portfolio repository. 
 

@@ -3,7 +3,6 @@ jupyter-server
 pyppeteer
 lxml
 xlrd
-sphinx-panels
 matplotlib
 numpy
 pandas
