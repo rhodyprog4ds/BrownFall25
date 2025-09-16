@@ -44,7 +44,7 @@ We will submit the assignment and do these steps in class 9/18
 
 Find 3 [datasets](#data:basic) of interest to you that are provided in at least two different file formats. Choose datasets that are not too big, so that they do not take more than a few second to load. At least one dataset must have non numerical (eg string or boolean) data in at least 1 column.
 
-In your notebook, create a markdown cell for each dataset that includes:
+In a notebook called `dataset_of_datasets.ipynb`, create a markdown cell for each dataset that includes:
 - heading of the dataset's name
 - a 1-2 sentence summary of what the dataset contains and why it was collected
 - a "more info" link to where someone can learn about the dataset
