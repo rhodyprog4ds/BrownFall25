@@ -86,6 +86,10 @@ lambda
 :  the keyword used to define an anonymous function; lambda functions are defined with a compact syntax `<name> = lambda <parameters>: <body>`
 : [docs](https://docs.python.org/3.9/reference/expressions.html#lambda)
 
+mask
+:  take a subset using booleans; False values are dropped and True are kept
+:  like multiplying by an array with 0 and 1s in it. 
+
 numpy array 
 :  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
 :  [](xref:numpy#reference/arrays.ndarray)
