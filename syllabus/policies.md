@@ -26,26 +26,17 @@ If you submit work that is **not complete**, it will be assessed and receive fee
 If you have a serious issue during the semester, that prevents you from submitting an assignment, email Dr. Brown to make a plan. Extensions will still not be granted because they do not help you in the long run, instead an alternate plan of how to earn the target grade. 
  ```
 
-
+(extension)=
 ## Portfolio Deadlines and Extensions 
 
 Building your Data Science Portfolio should be an ongoing process, where you commit work to your portfolio frequently. If something comes up and you cannot finish all that you would like assessed by the deadline, open an `Extension Request` issue on your {term}`repository` at least **24 hours** before the deadline.
 
-In this issue, include:
-1. A proposed new deadline
-2. What additional work you plan to add
-3. Why the extension is important to your learning
-4. Why the extension will not hinder your ability to complete the next assignments and portfolio check on time.
-5. (if less than 24 hours before the deadline) why you need an emergency request
+Fill in the tempalte. 
+
 
 ```{important}
-Your request should not include a reason why you are asking, unless you are asking for an emergency extension. Emergency requests can be submitted at any time, even after the deadline. 
+Your request need not include a reason **why** you are asking, unless you are asking for an emergency extension. Emergency requests can be submitted at any time, even after the deadline. 
 ```
-
-This request should be no more than 7 sentences. 
-
-
-Portfolio due dates will be announced well in advance and prompts for it will be released weekly.  You should spend some time working on it each week, applying what you've learned so far, from the feedback on previous assignments. 
 
 
 ## Academic Dishonesty 

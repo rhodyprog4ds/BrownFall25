@@ -64,7 +64,7 @@ There will be multiple opportunities to demonstrate each objective.
 - present: in class and questions answered, even if not correct or class made up
 - active: in class and most questions answered correctly or class made up
 
-### Data, EDA, Modeling
+### Communiation, Process, Data, EDA, Modeling
 
 - unattempted: not submitted or significant [style](#style:hard) violations
 - partial: good faith attempt, but not quite complete understanding **some assigments may only be eligible for partial demonstration of an objective**
@@ -141,7 +141,7 @@ communication,innovative,3,2,1,0,0,0,0,0,0,0,0
 communication,complete,  8,8,8,8,0,0,0,0,0,0,0
 communication,partial,  5,5,5,5,5,5,5,5,5,3,0
 data,innovative,         3,2,1,0,0,0,0,0,0,0,0
-data,complete,       10,10,10,10,9,8,7,6,5,3,0
+data,complete,           8,8,8,8,7,6,5,4,3,2,0
 modeling,innovative,     3,2,1,0,0,0,0,0,0,0,0
 modeling,complete,       4,4,4,4,3,3,2,2,1,1,0
 exploratory,innovative,  3,2,1,0,0,0,0,0,0,0,0
@@ -150,7 +150,22 @@ exploratory,complete,    6,6,6,6,5,4,3,2,1,1,0
 
 These are all minimums and "or better" applies, so innovative ratings count toward the count of complete ratings, but not the other way around.  `Partial` ratings only impact your grade for process and communication. For other objectives you might receive a rating or partial to acknowledge that you made some progress, but you will need to reach complete for your grade.  
 
-Your grade will go up slowly, but it can only go up.  It is **not** an average
+Your grade will go up slowly, but it can only go up.  It is **not** an average. 
+
+The last couple of assignments will have more open-ended challenges to them, where you can earn *innovative* for process in the assignment.  
+
+This means you only need to do 3 extensions to get an A. 
 
 
+## Ram Tokens
 
+We will have "ram tokens" that are like extra credit.  
+
+They can be spent for:
+- hints when you are very close to get a suggestion instead of a question (graders's discretion)
+- to upgrade experiences from present to active
+
+
+Some ways to earn them include: 
+- contribute additional examples or interpretation to the notes.  
+- attend office hours to ask for clarification about material based on your notes taken in class and the notes here (eg not just assignment questions) **especially useful if you miss class**
