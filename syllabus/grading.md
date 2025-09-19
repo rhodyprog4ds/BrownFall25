@@ -156,7 +156,7 @@ The last couple of assignments will have more open-ended challenges to them, whe
 
 This means you only need to do 3 extensions to get an A. 
 
-
+(ramtoken)=
 ## Ram Tokens
 
 We will have "ram tokens" that are like extra credit.  
