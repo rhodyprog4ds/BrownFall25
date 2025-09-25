@@ -33,7 +33,7 @@ Add your work to an `assignment2` branch in your portfolio and you do not need t
 ## Choose Datasets
 
 Each Dataset must have at least three variables, but can have more. Both datasets
-must have multiple types of variables. These **can** be datasets you used for Assignment 2,
+must have multiple types of variables. These **can** be datasets you used for Assignment 1,
 if they meet the criteria below. All datasets must be different datasets even in a group
 
 ### Dataset 1 (d1)
