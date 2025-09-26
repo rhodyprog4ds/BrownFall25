@@ -17,8 +17,8 @@ You have the option to work with a partner. You must plan this in advance so tha
 Add your work to an `assignment2` branch in your portfolio and you do not need to edit the 
 
 ### Group
-1. coordinate so that the first person makes the team when they [accept the assigment](https://classroom.github.com/a/oFDNxVqm)
-2. the second (and third) joins the same team when they [accept the assigment](https://classroom.github.com/a/oFDNxVqmR). 
+1. coordinate so that the first person makes the team when they [accept the assigment](https://classroom.github.com/a/XrWf2rDc)
+2. the second (and third) joins the same team when they [accept the assigment](https://classroom.github.com/a/XrWf2rDc). 
 3. Each person should [upload their work to a branch ](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#:~:text=Below%20the%20commit%20message%20fields%2C%20decide%20whether%20to%20add%20your%20commit%20to%20the%20current%20branch%20or%20to%20a%20new%20branch.%20If%20your%20current%20branch%20is%20the%20default%20branch%2C%20you%20should%20choose%20to%20create%20a%20new%20branch%20for%20your%20commit%20and%20then%20create%20a%20pull%20request.) named `d1`, `d2` or `d3` for which dataset checklist you followed from below and open a PR. (each person should do a different dataset)
 4. In your portfolio, make an issue with a link to your team's repo. 
 
