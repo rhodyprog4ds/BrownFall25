@@ -130,6 +130,7 @@ make sure that your `dataset_03.ipynb` has:
 - a plot and summary table that convey the same information. This can be one statistic or many.
 
 
+(peerrev)=
 ## Peer Review
 
 ```{important}
