@@ -53,7 +53,7 @@ In this, you should handle missing values appropriately in service of that gener
 
 use the data from the tidy tuesday on [UN Votes](https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-03-23) to create a dataset and then answer (using stats and/or plots): 
 
-> Which (if any) countries vote together often, but not for all issues? 
+> Which  issues are most divisive in the UN? (meaning they create split votes the most) 
 
 
 ## Today I learned
