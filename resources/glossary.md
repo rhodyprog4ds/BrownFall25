@@ -103,6 +103,10 @@ PEP 8
 repository
 :  a project folder with tracking information in it in the form of a .git file
 
+schema
+:  (formal)a description of how a database is set up
+:  (informal) a description of what different columns in a data set mean 
+
 Series
 :  a data structure provided by pandas for single columnar data with an index.  Subsetting a Dataframe or applying a function to one will often produce a Series
 :  [docs](xref:pandas#pandas.Series)
