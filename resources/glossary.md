@@ -23,6 +23,8 @@ cast
 conditional 
 :  a logical control to do something, conditioned on something else, for example `if`, `elif`, `else` 
 
+confusion matrix
+:  counts the number of samples of each *actual* category that were *predicted$ to be in each category for every pair of categories.  For a two class(binary) problem, the table has 4 outcomes: {term}`true positive`, {term}`false positive`, {term}`false negative` and {term}`true negative`
 
 corpus
 :  (NLP) a set of documents for analysis 
@@ -49,6 +51,24 @@ document
 
 error bars
 :  typically vertical, but sometimes also horizontal lines on a point in a line graph or bar in  bar chart that indicate the spread of the samples used to create that point or bar height
+
+
+false negative
+:  items in the positive class that were predicted in the negative class 
+:  items incorrectly predicted as members of the negative class
+
+false negative rate
+:  the percentage of actual positive items that were incorrectly classified
+:  $FNR = \frac{FN}{P}$ for $FN$ {term}`false negatives <false negative>` and $P$ actual positive items. 
+
+false positive
+:  items in the negative class that were predicted in the postive class 
+:  items incorrectly predicted as members of the positive class
+
+
+feature
+:  an input variable in a prediction algorithm
+:  an independent variable
 
 generative
 :  a model that describes the data and therefore can also be used to generate new data that looks like the training data. 
@@ -86,6 +106,10 @@ lambda
 :  the keyword used to define an anonymous function; lambda functions are defined with a compact syntax `<name> = lambda <parameters>: <body>`
 : [docs](https://docs.python.org/3.9/reference/expressions.html#lambda)
 
+learning algorithm
+:  an algorithm that finds patterns in data
+:  implemented in the `fit` method in `sklearn`
+
 mask
 :  take a subset using booleans; False values are dropped and True are kept
 :  like multiplying by an array with 0 and 1s in it. 
@@ -94,11 +118,25 @@ numpy array
 :  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
 :  [](xref:numpy#reference/arrays.ndarray)
 
-
+parameter
+:  (general programming) all inputs to a function
+:  (in ML) the values that transform a generic function into a specific function
 
 PEP 8
 :  [Python Enhancement Proposal](https://www.python.org/dev/peps/) 8, is the Style Guide for Python Code.
 :  [pep 8 ](https://www.python.org/dev/peps/pep-0008/pep-0008/)
+
+precision
+:  the percentage of positive predictions that were actually members of the positive class  $P = \frac{TP}{PP}$ for $TP$ True positives and $PP$ positive predictions
+:  For a {term}`confusion matrix`, $C$ as sklearn:  $ P = \frac{C_{1,1}}{C_{0,1} + C_{1,1}}$
+: also called the positive predictive value
+
+prediction algorithm
+: an algorithm that takes an input and predicts the output value. 
+
+recall
+:  the percentage of the actual positives that were predicted as the positive outcomes. $R = \frac{TP}{P}$ for $TP$ True positives and $P$ items in the positive class
+:  For a {term}`confusion matrix`, $C$ as sklearn: $R = \frac{C_{1,1}}{C_{1,0} + C_{1,1}}$
 
 repository
 :  a project folder with tracking information in it in the form of a .git file
@@ -131,6 +169,10 @@ stop words
 suffix
 :  additional part of the name that gets added to end of a name in a merge operation
 
+target
+:  the output of a prediction algorithm
+:  the dependent variable
+
 test accuracy
 :  percentage of predictions that the model predict correctly, based on held-out (previously unseen) test data
 
@@ -149,6 +191,14 @@ training accuracy
 
 transpose
 :  swap the rows and columns of a matrix or dataframe
+
+true negative
+:  items in the negative class that were predicted in the negative class 
+:  items correctly predicted as members of the negative class
+
+true positive
+:  items in the positive class that were predicted in the postive class 
+:  items correctly predicted as members of the positive class
 
 Web Scraping
 :  the process of extracting data from a website. In the context of this class, this is usually done using
