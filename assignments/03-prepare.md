@@ -14,6 +14,14 @@ downloads:
 
 Due: 2025-10-14
 
+:::::{tip}
+Reminder Monday office hours are on Zoom now. 
+
+[link is on gh](https://github.com/rhodyprog4ds/.github-private/blob/main/profile/README.md)
+
+Office hours will be normal on 10/13. 
+
+:::::::
 
 ## Submission Instructions
 
