@@ -49,6 +49,7 @@ project:
         - file: faq/index.md
         - file: faq/syllabus.md
         - file: faq/github.md
+        - file: faw/environment.md
         - file: faq/debugging.md
     - title: Resources
       children:
@@ -70,6 +71,6 @@ project:
     
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: 310.ico
+    logo: 310_logo.png

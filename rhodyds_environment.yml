@@ -13,3 +13,5 @@ dependencies:
   - seaborn
   - scikit-learn
   - mystmd
+  - jupytext
+  - jupyterlab_myst

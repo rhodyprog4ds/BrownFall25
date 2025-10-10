@@ -12,14 +12,31 @@ downloads:
 
 # Assignment 3: Preparing for Analysis
 
-Due: 2025-10-13
+Due: 2025-10-14
 
 
 ## Submission Instructions
 
 1. Create one notebook for each of the following tasks
-1. Export as myst markdown (using jupytext)
-1. Upload to a branch called `assignment3`
+1. Export as myst markdown (by [installing jupytext](https://jupytext.readthedocs.io/en/latest/install.html) which should include [frontend features](https://jupytext.readthedocs.io/en/latest/jupyterlab-extension.html) )
+1. Upload (or push) to a branch called `assignment3`
+
+::::{tip}
+If you have trouble with myst or jupytext, [check your environment](#libraryenv)
+:::::
+
+## Related Notes
+
+- [](../notes/2025-09-30.md)
+- [](../notes/2025-10-02.md)
+
+
+Our evaluation will focus on your ability to apply merges and clean the data. 
+
+
+:::::::{important}
+Remember that your code always has to adhere to the course [style guide](#style:hard). Small violations may receive a warning, but major violations will not be evaluated.  This means no progress toward your grade **and** no tips about any other errors. 
+::::::::
 
 
 ## Job Satisfaction Dataset
