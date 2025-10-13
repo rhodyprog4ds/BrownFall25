@@ -88,3 +88,4 @@ Write a notebook that can, on any given day, tell you how many of the most recen
 Tips:
 - `'https://www.reddit.com/r/todayilearned.json'` gives you 25 recent posts
 -  there is a `url` column, once that is unpacked. 
+- we used json data from an api [in class before](#jsonex)
