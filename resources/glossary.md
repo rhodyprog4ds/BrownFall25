@@ -12,6 +12,10 @@ anonymous function
 :  a function that's defined on the fly, typically to lighten syntax or return a function within a function. In python, they're defined with the {term}`lambda` keyword.
 :  [docs](https://en.wikipedia.org/wiki/Anonymous_function#:~:text=Anonymous%20functions%20are%20often%20arguments,than%20using%20a%20named%20function)
 
+balanced dataset
+:  when the {term}` <class>` are equally or close to equally well represented
+
+
 BeautifulSoup
 :  a python library used to assist in web scraping, it pulls data from html and xml files that can be parsed in a variety of different ways using different methods.
 : [docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
@@ -19,6 +23,15 @@ BeautifulSoup
 
 cast
 :  convert a variable from one type to another. in Python, done by using the constructor method of the object type or builtin function for builtin types
+
+categorical
+:  variable type with discrete outcomes
+
+classification
+:  a type of machine learning where a {term}`categorical` {term}`target` variable is predicted from {term}`features <feature>`
+
+class
+:  a value of the {term}`target` variable
 
 conditional 
 :  a logical control to do something, conditioned on something else, for example `if`, `elif`, `else` 
@@ -39,7 +52,7 @@ dictionary
 :  (data type) a mapping array that matches keys to values. [doc](https://docs.python.org/3/glossary.html#term-dictionary)
 :   (in NLP) all of the possible tokens a model knows
 
-discriminative 
+discriminative model
 :  a model that describes the decision rule for labeling a sample as one class or another
 
 display
@@ -70,7 +83,7 @@ feature
 :  an input variable in a prediction algorithm
 :  an independent variable
 
-generative
+generative model
 :  a model that describes the data and therefore can also be used to generate new data that looks like the training data. 
 
 gh 
@@ -110,9 +123,16 @@ learning algorithm
 :  an algorithm that finds patterns in data
 :  implemented in the `fit` method in `sklearn`
 
+location parameter
+:  parameter of a distribution that controls where it is spatially. e.g. mean in a Gaussian
+
 mask
 :  take a subset using booleans; False values are dropped and True are kept
 :  like multiplying by an array with 0 and 1s in it. 
+
+model
+:  (general) the set of assumptions, the simplification of the world 
+:  (statistics) a mathematical simplification of the world in probabilistic terms
 
 numpy array 
 :  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
@@ -141,6 +161,9 @@ recall
 repository
 :  a project folder with tracking information in it in the form of a .git file
 
+scale parameter
+:  a parameter of a distribution that controls its width. e.g. variance in a Guassian
+
 schema
 :  (formal)a description of how a database is set up
 :  (informal) a description of what different columns in a data set mean 
@@ -154,6 +177,8 @@ shape
 
 side effect
 :  an action that occurs in a function (like printing or writing a file) other than it returning a vlaue
+
+
 
 slice
 :  a subset of an iterable item based on the start, stop, and step
@@ -171,10 +196,13 @@ suffix
 
 target
 :  the output of a prediction algorithm
-:  the dependent variable
+:  also called the dependent variable or label
 
 test accuracy
 :  percentage of predictions that the model predict correctly, based on held-out (previously unseen) test data
+
+test data
+:  data that was not used in training that is instead used to evaluate the perforance of a model 
 
 Tidy Data Format
 : Tidy data is a database format that ensures data is easy to manipulate, model and visualize. The specific rules of Tidy Data are as follows: Each variable is a column, each row is an observation, and each observable unit is a table.
@@ -188,6 +216,13 @@ TraceBack
 
 training accuracy
 :  percentage of predictions that the model predict correctly, based on the training data
+
+training algorithm
+:  another namde for {term}`learning algorithm`
+
+training data
+:  data used to fit the model to the specific domain or problem, provided to the {term}`learning algorithm`
+:  the data used to find patterns and determine parameter values that will work for the problem at hand
 
 transpose
 :  swap the rows and columns of a matrix or dataframe

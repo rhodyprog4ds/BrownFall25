@@ -23,11 +23,13 @@ Office hours will be normal on 10/13.
 
 :::::::
 
+(a3submit)=
 ## Submission Instructions
 
 1. Create one notebook for each of the following tasks
 1. Export as myst markdown (by [installing jupytext](https://jupytext.readthedocs.io/en/latest/install.html) which should include [frontend features](https://jupytext.readthedocs.io/en/latest/jupyterlab-extension.html) )
 1. Upload (or push) to a branch called `assignment3`
+1. Open a [PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ::::{tip}
 If you have trouble with myst or jupytext, [check your environment](#libraryenv)
@@ -73,6 +75,10 @@ Note that you were given only a random sample of 2000 rows from each year, but y
 Keep all of the columns that could be helpful in answering the question and combine the two csvs into one in a way that lets someone see trends year over year. 
 
 In this, you should handle missing values appropriately in service of that general goal. 
+
+::::{tip}
+the `responseID` column in these datasets are numbered 1 to N, for N of the number of rows in the whole survey.  You have only 2000 randomly selected rows. 
+::::::
 
 ## UN Votes
 

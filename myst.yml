@@ -56,6 +56,7 @@ project:
         - file: resources/glossary.md
         - file: resources/python.md
         - file: resources/cheatsheet.md
+        - file: resources/models.md
         - file: resources/datasets.md
         - file: resources/tips.md
         - file: resources/learning.md
