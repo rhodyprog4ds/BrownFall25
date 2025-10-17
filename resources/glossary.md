@@ -83,6 +83,9 @@ feature
 :  an input variable in a prediction algorithm
 :  an independent variable
 
+generalize
+:  to describe previously unseen data, solving related, but not in the training data problems
+
 generative model
 :  a model that describes the data and therefore can also be used to generate new data that looks like the training data. 
 
@@ -137,6 +140,10 @@ model
 numpy array 
 :  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
 :  [](xref:numpy#reference/arrays.ndarray)
+
+overfitting
+:  when a model fits the training data much better than the test set, it has fit the noise in the training data instead of the core underlying pattern
+: a model that does not {term}`generalize` well
 
 parameter
 :  (general programming) all inputs to a function

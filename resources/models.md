@@ -30,6 +30,19 @@ import matplotlib.pyplot as plt
 sns.set_theme(palette='colorblind')
 ```
 
+## Identity matrices 
+
+```{code-cell} ipython3
+:label: identitymatrix
+D = 4
+np.eye(D)
+```
+
+```{code-cell} ipython3
+:label: diagonalcov
+3*np.eye(D)
+```
+
 (dist:gaussian)=
 ## Gaussian Distribution
 
