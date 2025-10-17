@@ -8,6 +8,8 @@ downloads:
 
 # Auditing Algorithms
 
+Due: 2025-10-23
+
 ## Submission Instructions
 
 1. Create one notebook for this assignment, `audits`
