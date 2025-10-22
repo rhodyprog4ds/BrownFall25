@@ -33,6 +33,12 @@ classification
 class
 :  a value of the {term}`target` variable
 
+cluster
+:  a group of samples that is similar by some definition
+
+clustering
+:  a type of {term}`unsupervised learning` that finds groups or clusters among the samples
+
 conditional 
 :  a logical control to do something, conditioned on something else, for example `if`, `elif`, `else` 
 
@@ -133,6 +139,9 @@ mask
 :  take a subset using booleans; False values are dropped and True are kept
 :  like multiplying by an array with 0 and 1s in it. 
 
+metric
+:  (in ML) a score that measures the quality of a model's predictions
+
 model
 :  (general) the set of assumptions, the simplification of the world 
 :  (statistics) a mathematical simplification of the world in probabilistic terms
@@ -149,6 +158,12 @@ parameter
 :  (general programming) all inputs to a function
 :  (in ML) the values that transform a generic function into a specific function
 
+partition
+:  a subset of samples
+
+partitioning
+:  a splitting of samples
+
 PEP 8
 :  [Python Enhancement Proposal](https://www.python.org/dev/peps/) 8, is the Style Guide for Python Code.
 :  [pep 8 ](https://www.python.org/dev/peps/pep-0008/pep-0008/)
@@ -157,6 +172,10 @@ precision
 :  the percentage of positive predictions that were actually members of the positive class  $P = \frac{TP}{PP}$ for $TP$ True positives and $PP$ positive predictions
 :  For a {term}`confusion matrix`, $C$ as sklearn:  $ P = \frac{C_{1,1}}{C_{0,1} + C_{1,1}}$
 : also called the positive predictive value
+
+prediction
+:  the estimated value of the {term}`target` variable for a sample based on what was learned
+: the output of the {term}`prediction algorithm`
 
 prediction algorithm
 : an algorithm that takes an input and predicts the output value. 
@@ -185,8 +204,6 @@ shape
 side effect
 :  an action that occurs in a function (like printing or writing a file) other than it returning a vlaue
 
-
-
 slice
 :  a subset of an iterable item based on the start, stop, and step
 :  implemented by the [slice](https://docs.python.org/3/library/functions.html#slice) built in
@@ -200,6 +217,10 @@ stop words
 
 suffix
 :  additional part of the name that gets added to end of a name in a merge operation
+
+supervised learning
+: a type of machine learning that requires both features and target variables at time of training
+:  machine learning with labeled examples
 
 target
 :  the output of a prediction algorithm
@@ -241,6 +262,10 @@ true negative
 true positive
 :  items in the positive class that were predicted in the postive class 
 :  items correctly predicted as members of the positive class
+
+unsupervised learning
+: a type of machine learning that does not use target variables at learning (fit) time. 
+: machine learning from unlabeled examples
 
 Web Scraping
 :  the process of extracting data from a website. In the context of this class, this is usually done using
