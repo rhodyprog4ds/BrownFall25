@@ -15,3 +15,5 @@ dependencies:
   - mystmd
   - jupytext
   - jupyterlab_myst
+  - huggingface_hub
+  - skops
