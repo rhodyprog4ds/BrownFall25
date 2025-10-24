@@ -49,7 +49,7 @@ project:
         - file: faq/index.md
         - file: faq/syllabus.md
         - file: faq/github.md
-        - file: faw/environment.md
+        - file: faq/environment.md
         - file: faq/debugging.md
     - title: Resources
       children:

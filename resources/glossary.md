@@ -115,7 +115,11 @@ interpreter
 :  the translator from human readable python code to something the computer can run.  An interpreted language means you can work with python interactively
 
 iterate
-:  To do the same thing to each item in an {term}`iterable` data structure, typically, an iterable type. Iterating is usually described as iterate over some data structure and typically uses the `for` keyword
+: To do the same thing to each item in an {term}`iterable` data structure, typically, an iterable type. Iterating is usually described as iterate over some data structure and typically uses the `for` keyword
+
+
+iterative
+:  a property of an algorithm that means that it involves solving a problem by repeating a set of steps until a {term}`stopping criterion` is met or over a number of steps
 
 iterable
 :  any object in python that can return its members one at a time. The most common example is a list, but there are others.
@@ -214,6 +218,9 @@ Split Apply Combine
 
 stop words
 :  Words that do not convey important meaning, we don’t need them (like a, the, an,). Note that this is context dependent. These words are removed when transforming text to numerical representation
+
+stopping criterion
+:  a condition that will terminate an algorithm. typically a value meeting a threshold
 
 suffix
 :  additional part of the name that gets added to end of a name in a merge operation

@@ -53,13 +53,13 @@ For example, if you are violate the academic honesty policy in asignment 4, Prep
 If you violate acadmic honesty policy in portfolio 1 while attempting level 3 at Python, access, prepare, summarize and visualize and process level 2, then your maximum grade becomes a B+, because level 3 in all five of those skills becomes inelgible.  
 
 
-
+(regraderequest)=
 ## Regrading
 
 1. Add comments: 
     - For general questions, post on the conversation tab of your Feedback PR with your request.
     - For specific questions, reply to a specifc comment.
-2. Re-request a review from Dr. Brown  on your Feedback Pull request.  
+2. Re-request a review from Dr. Brown (`brownsarahm`) on the relevant Pull request.  
 
 If you think we missed *where* you did something, add a comment on that line to help us find it
 (on the code tab of the PR, click the plus (+) next to the line) and then post
