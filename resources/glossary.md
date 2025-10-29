@@ -154,6 +154,9 @@ numpy array
 :  a type provided by numpy to represent matrices, used by `pd.DataFrame.values` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html) and accessed by `pd.DataFrame.to_numpy` [doc](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
 :  [](xref:numpy#reference/arrays.ndarray)
 
+objective function
+:  a function that describes how much errors should be penalized
+
 overfitting
 :  when a model fits the training data much better than the test set, it has fit the noise in the training data instead of the core underlying pattern
 : a model that does not {term}`generalize` well
@@ -190,6 +193,9 @@ recall
 
 repository
 :  a project folder with tracking information in it in the form of a .git file
+
+residual
+:  error in regression predictions; the amount of variance that is left unexplained by the predictive model
 
 scale parameter
 :  a parameter of a distribution that controls its width. e.g. variance in a Guassian
