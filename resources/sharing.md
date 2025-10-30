@@ -14,7 +14,57 @@ kernelspec:
 
 # Sharing Models
 
-```{code-cell} ipython3
+:::::{warning}
+Most of the code on this page is **not** a notebook, so it does not show the output of these steps, because I cannot have it authenticate to huggingface on the github action that makes the website.   
+
+You should still run this in a notebook
+:::::::
+
+
+
+## Install tools
+To do this exercise you will need to install two new packages
+- [huggingface_hub](https://huggingface.co/docs/huggingface_hub/en/installation#install-with-conda) tools by 🤗huggingface for uploading
+- [skops](https://skops.readthedocs.io/en/stable/installation.html) tools for managing sklearn models
+
+Be sure to install in the same environment you do your work for class: 
+
+:::::{tab-set}
+:::{tab} Install with pip
+```bash
+pip install huggingface_hub skops
+```
+:::
+:::{tab} Install with conda
+
+```bash
+conda install conda-forge::skops
+conda install -c conda-forge huggingface_hub
+```
+:::
+:::::
+
+https://huggingface.co/organizations/CSC310-fall25/share/qzhMAeCATuiyOXtygtowsBCzTYxRruvHBC
+## Login to Huggingface
+
+You need to do **one** time per computer(this does not need to be in your submitted assignment):
+```Python
+from huggingface_hub import login
+login()
+```
+
+When you create a token, choose the `write` tab at the top to simplify the decision instead of making a fine-grained token (the page that shows). 
+
+:::::{attention}
+Make sure that you have joined the course organization. The join link is on the members only view of the course [github organization](https://github.com/rhodyprog4ds). If you do not see it at that page, email Dr. Brown
+:::::::
+
+ <!-- can [request]() and if your username matches your github handle that is in the course github organization, you'll be approved.  -->
+
+## Create your test data and train a model
+Then you'll do your regular work
+
+```Python
 # include only what you need for training
 import numpy as np
 import seaborn as sns
@@ -32,82 +82,72 @@ from skops import card
 sns.set_theme(palette='colorblind')
 ```
 
-```{code-cell} ipython3
+
+```Python
 corner_data = 'https://raw.githubusercontent.com/rhodyprog4ds/06-naive-bayes/f425ba121cc0c4dd8bcaa7ebb2ff0b40b0b03bff/data/dataset6.csv'
 df6= pd.read_csv(corner_data,usecols=[1,2,3])
+df6_train, df6_test = train_test_split(df6)
 ```
 
-:::::{warning}
-This page is **not** a notebook, it does not show the output of these steps, because I cannot have it authenticate to huggingface on the github action that makes the website. 
+::::{tip}
+Above I split into train and test without separating the features and target first so that I could upload the features and target all as one dataset.  You could also upload two files
 :::::::
 
-You need to do **one** time:
+
+
 ```Python
-from huggingface_hub import login
-login()
+dt =tree.DecisionTreeClassifier()
+dt.fit(df6_train[['x0','x1']],df6_train['char'])
 ```
 
-## Sharing data
-Then [create a repo on huggingface](https://huggingface.co/new) and set the owner to the course organization, `CSC310-fall25`.  
 
-Then save the data (eg with `to_csv`) to a folder and upload that folder: 
+## Create a Repo
 
-So, for example, I did: 
+🤗Hugging Face also uses [repositories](https://huggingface.co/docs/hub/en/repositories) to share things. THey are git repositories that are specialized for AI and ML. In particular for large files and model weights. 
+
+
+You will need to [create a model repo on huggingface](https://huggingface.co/new) and set the owner to the course organization, `CSC310-fall25`.  
+
+or create it with code: 
 ```Python
-df6.sample(50).to_csv('corners/corners.csv')
-api = HfApi(token=os.getenv("HF_TOKEN"))
-api.upload_folder(
-    folder_path="corners",
-    repo_id="CSC310-fall25/example_corners",
-    repo_type="dataset",
-)
+api = HfApi()
+api.create_repo(repo_id="CSC310-fall25/example_decision_tree",)
 ```
-:::::{important}
-You will need to set your `folder_path` and `repo_id` to your own. 
-::::
+
+::::::{warning}
+Your model *can be private* if you only want it to be visible to classmates, but the **owner must be `CSC310-fall25`** so that it is easy for us all to see. 
+:::::::::::
 
 
-## Sharing your model
+Next create a local folder, where you will put all of the things to upload. I made one called `example_decision_tree` in the same folder as the notebook where I ran this code. 
+
+## Prepare your Test Data
+
+Save the test data to the folder locally
+
+```Python
+df6_test.to_csv('example_decision_tree/corners.csv')
+```
+
+
+## Prepare your model
 ::::{note} 
 If you are testing this for extra credit, you can upload any model, with a minimal model card, but for your assignment you should make sure that the model card is complete
 :::::
 
-Then create train your model, create a folder and use `skio` to dump the model parameters to a pkl file (read pickle)
+Then create train your model, create a folder and use `skio` to dump the model parameters to a pkl file (read pickle). 
+
+
+Save your model to the folder
 ```Python
 local_repo = 'example_decision_tree'
 with open(os.path.join(local_repo,'model.pkl'), mode="bw") as f:
     sio.dump(dt, file=f)
 ```
 
-Then make a model card, but customized to your actual model: 
-```Python
-model_card = card.Card(dt)
-limitations = (
-    "This model is made for educational purposes and is not ready to be used in"
-    " production."
-)
-model_description = (
-    "This is a Decision tree model trained on a 2D 4 corners dataset. "
-)
-model_card_authors = "brownsarahm "
-model_card.add(
-    folded=False,
-    **{
-        "Model Card Authors": model_card_authors,
-        "Intended uses & limitations": limitations,
-        "Model description": model_description,
-        "Model description/Intended uses & limitations": limitations,
-    },
-)
-```
-
-and save that to a file
-```Python
-model_card.save(Path(local_repo) / "README.md")
-```
 
 
-Also add a configuration that describes your model 
+Also add a configuration that describes your model  (again you will need to customize this, this is for hat in class corners dataset)
 ```Python
 config = {
     "sklearn": {
@@ -146,6 +186,51 @@ with open(os.path.join(local_repo,'config.json'),'w')as f:
     f.write(json.dumps(config))
 ```
 
+## Create a Model Card
+Then make a [model card](https://huggingface.co/docs/hub/en/model-cards). 
+
+You can use `skops` to do it
+```Python
+model_card = card.Card(dt)
+limitations = (
+    "This model is made for educational purposes and is not ready to be used in"
+    " production."
+)
+model_description = (
+    "This is a Decision tree model trained on a 2D 4 corners dataset. "
+)
+model_card_authors = "brownsarahm "
+model_card.add(
+    folded=False,
+    **{
+        "Model Card Authors": model_card_authors,
+        "Intended uses & limitations": limitations,
+        "Model description": model_description,
+        "Model description/Intended uses & limitations": limitations,
+    },
+)
+```
+
+or you can use the [huggingface tools](https://huggingface.co/docs/huggingface_hub/guides/model-cards#create-and-share-model-cards). This can be done programmatically using their web interface.  
+
+
+
+and save that to a file
+```Python
+mc_path =os.path.join(local_repo, "README.md")
+model_card.save(mc_path)
+```
+
+
+## Share your Model repo
+
+You should now have a folder that has data, a model card
+
+
+:::::{important}
+You will need to set your `folder_path` and `repo_id` to your own. 
+::::
+
 and finally upload the model
 ```Python
 api = HfApi(token=os.getenv("HF_TOKEN"))
@@ -156,6 +241,7 @@ api.upload_folder(
 )
 ```
 
+(getmodel)=
 ## Downloading and using a model
 
 In your `eval` notebooks, you will: 
@@ -172,6 +258,8 @@ dt_loaded.score(X_test,y_test)
 and then do the rest of your eval.  You will also need their test dataset. 
 
 
-```{code-cell} ipython3
-```
+<!--
+ ```{code-cell} ipython3
+``` 
+-->
 
