@@ -32,7 +32,7 @@ Be sure to install in the same environment you do your work for class:
 :::::{tab-set}
 :::{tab} Install with pip
 ```bash
-pip install huggingface_hub skops
+pip install huggingface_hub skops  ipywidgets
 ```
 :::
 :::{tab} Install with conda
@@ -52,6 +52,10 @@ You need to do **one** time per computer(this does not need to be in your submit
 from huggingface_hub import login
 login()
 ```
+
+:::::{attention}
+You need to paste the **value** of the token (a long alphanumeric string) not the *name* of the token (that you chose)
+::::::::
 
 When you create a token, choose the `write` tab at the top to simplify the decision instead of making a fine-grained token (the page that shows). 
 
@@ -229,7 +233,7 @@ You should now have a folder that has data, a model card
 
 :::::{important}
 You will need to set your `folder_path` and `repo_id` to your own. 
-::::
+::::::::
 
 and finally upload the model
 ```Python
