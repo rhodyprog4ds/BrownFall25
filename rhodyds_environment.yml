@@ -17,4 +17,5 @@ dependencies:
   - huggingface_hub
   - skops
   - imagio
+  - ipywidgets
   # - jupyterlab_myst

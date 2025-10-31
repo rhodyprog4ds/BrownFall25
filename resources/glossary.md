@@ -191,6 +191,9 @@ recall
 :  the percentage of the actual positives that were predicted as the positive outcomes. $R = \frac{TP}{P}$ for $TP$ True positives and $P$ items in the positive class
 :  For a {term}`confusion matrix`, $C$ as sklearn: $R = \frac{C_{1,1}}{C_{1,0} + C_{1,1}}$
 
+regression
+: {term}`supervised learning` that predicts a continuous valued output
+
 repository
 :  a project folder with tracking information in it in the form of a .git file
 
@@ -279,6 +282,10 @@ true positive
 unsupervised learning
 : a type of machine learning that does not use target variables at learning (fit) time. 
 : machine learning from unlabeled examples
+
+validation data
+:  data for hyperparameter optimization
+:  used for testing in progress of development, not it the learning algorithm, but the model may be changed based on the performance on this set of data
 
 Web Scraping
 :  the process of extracting data from a website. In the context of this class, this is usually done using

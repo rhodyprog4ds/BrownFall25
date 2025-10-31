@@ -14,6 +14,15 @@ kernelspec:
 
 # Sharing Models
 
+🤗Hugging Face is the main AI/ML model sharing platform.  It is where the weights for basically all major open weight models are hosted.  
+
+We will share our much smaller models for class using huggingface so that you get familiar with its process.  That will be the same as how you can use and contribute to any open AI/ML projects in the future.  
+
+the `huggingface_hub` library just [reached version 1.0](https://huggingface.co/blog/huggingface-hub-v1) on October 27, 2025! So you are getting truly state of the art skills in trying out this process.  
+
+We will use only a couple of the features here, but using it more is 
+
+
 :::::{warning}
 Most of the code on this page is **not** a notebook, so it does not show the output of these steps, because I cannot have it authenticate to huggingface on the github action that makes the website.   
 
@@ -21,7 +30,7 @@ You should still run this in a notebook
 :::::::
 
 
-
+(share:install)=
 ## Install tools
 To do this exercise you will need to install two new packages
 - [huggingface_hub](https://huggingface.co/docs/huggingface_hub/en/installation#install-with-conda) tools by 🤗huggingface for uploading
@@ -40,28 +49,31 @@ pip install huggingface_hub skops  ipywidgets
 ```bash
 conda install conda-forge::skops
 conda install -c conda-forge huggingface_hub
+conda install -c conda-forge ipywidgets
 ```
 :::
 :::::
 
-https://huggingface.co/organizations/CSC310-fall25/share/qzhMAeCATuiyOXtygtowsBCzTYxRruvHBC
+(sharing:login)=
 ## Login to Huggingface
 
-You need to do **one** time per computer(this does not need to be in your submitted assignment):
+:::::{important}
+Make sure that you have joined the course organization. The join link is on the members only view of the course [github organization](https://github.com/rhodyprog4ds). If you do not see it at that page, email Dr. Brown
+:::::::
+
+You need to do **one** time per computer(this does not need to be in your submitted assignment if you have done it in class or when making up class):
 ```Python
 from huggingface_hub import login
 login()
 ```
+When you create a token, choose the `write` tab at the top to simplify the decision instead of making a fine-grained token (the page that shows). 
 
-:::::{attention}
+
+:::::{important}
 You need to paste the **value** of the token (a long alphanumeric string) not the *name* of the token (that you chose)
 ::::::::
 
-When you create a token, choose the `write` tab at the top to simplify the decision instead of making a fine-grained token (the page that shows). 
 
-:::::{attention}
-Make sure that you have joined the course organization. The join link is on the members only view of the course [github organization](https://github.com/rhodyprog4ds). If you do not see it at that page, email Dr. Brown
-:::::::
 
  <!-- can [request]() and if your username matches your github handle that is in the course github organization, you'll be approved.  -->
 
@@ -135,9 +147,7 @@ df6_test.to_csv('example_decision_tree/corners.csv')
 
 
 ## Prepare your model
-::::{note} 
-If you are testing this for extra credit, you can upload any model, with a minimal model card, but for your assignment you should make sure that the model card is complete
-:::::
+
 
 Then create train your model, create a folder and use `skio` to dump the model parameters to a pkl file (read pickle). 
 
@@ -255,11 +265,22 @@ hf_hub_download(repo_id="CSC310-fall25/example_decision_tree", filename="model.p
 dt_loaded = sio.load('model.pkl')
 ```
 
-You can confirm it works like: 
+You can then use that object like any other `sklearn` estimator. 
+
 ```Python
 dt_loaded.score(X_test,y_test)
 ```
 and then do the rest of your eval.  You will also need their test dataset. 
+
+You can download datasets just like models, but by specifying the data's file name instead of `model.pkl` above. 
+
+
+::::{attention}
+If you get an `InconsistentVersionWarning` error because you and the person who trained the model are different versions, that is probably okay, but if you get really low performance or errors this could also be the problem. 
+
+You can [learn more from `sklearn` docs](https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations)
+:::::::
+
 
 
 <!--
