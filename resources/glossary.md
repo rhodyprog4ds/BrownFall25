@@ -4,6 +4,9 @@
 
 ```{glossary}
 
+accuracy
+: percentage of correct predictions
+
 aggregate
 :  to combine data in some way, a function that can produce a customized summary table
 : [more](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.core.groupby.DataFrameGroupBy.aggregate.html#pandas.core.groupby.DataFrameGroupBy.aggregate)
@@ -24,8 +27,8 @@ BeautifulSoup
 cast
 :  convert a variable from one type to another. in Python, done by using the constructor method of the object type or builtin function for builtin types
 
-categorical
-:  variable type with discrete outcomes
+categorical variable
+:  a variable that represents a quantity with discrete outcomes
 
 classification
 :  a type of machine learning where a {term}`categorical` {term}`target` variable is predicted from {term}`features <feature>`
@@ -45,8 +48,15 @@ conditional
 confusion matrix
 :  counts the number of samples of each *actual* category that were *predicted$ to be in each category for every pair of categories.  For a two class(binary) problem, the table has 4 outcomes: {term}`true positive`, {term}`false positive`, {term}`false negative` and {term}`true negative`
 
+continuous variable
+:  a value that represents a smoothly varying quantity 
+:  or that is best approximated as such; for example an integer value with a large range may be best modeled as continuouse and post-processed by rounding
+
 corpus
 :  (NLP) a set of documents for analysis 
+
+cross validation
+:  repeated measures of the model's performance in order to get a better estimate of performance or optimize {term}`hyperparameters <hyperparameter>`
 
 [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 :  a data structure provided by pandas for tabular data in python.
@@ -71,6 +81,9 @@ document
 error bars
 :  typically vertical, but sometimes also horizontal lines on a point in a line graph or bar in  bar chart that indicate the spread of the samples used to create that point or bar height
 
+estimator object
+:  the `sklearn` class that all {term}`model` objects inherit from
+:  an object that has `fit`, `predict`, and `score` methods among other common ones
 
 false negative
 :  items in the positive class that were predicted in the negative class 
@@ -88,6 +101,9 @@ false positive
 feature
 :  an input variable in a prediction algorithm
 :  an independent variable
+
+fold
+:  a chunk of the data (split row-wise) used in {term}`cross validation`
 
 generalize
 :  to describe previously unseen data, solving related, but not in the training data problems
@@ -127,6 +143,9 @@ iterable
 
 kernel
 :  in the jupyter environment, [the kernel](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html#kernel) is a language specific computational engine
+
+Kfold cross validation
+: splitting the data into `K` sections, each called a {term}`fold` training on `K-1` and scoring on the last one, repeating `K` times so that each sample is used for testing one time. 
 
 lambda
 :  the keyword used to define an anonymous function; lambda functions are defined with a compact syntax `<name> = lambda <parameters>: <body>`
@@ -217,6 +236,9 @@ shape
 side effect
 :  an action that occurs in a function (like printing or writing a file) other than it returning a vlaue
 
+silhouette score
+: a score for clustering that captures how compact and separate the clusters are
+
 slice
 :  a subset of an iterable item based on the start, stop, and step
 :  implemented by the [slice](https://docs.python.org/3/library/functions.html#slice) built in
@@ -283,8 +305,11 @@ unsupervised learning
 : a type of machine learning that does not use target variables at learning (fit) time. 
 : machine learning from unlabeled examples
 
+validation accuracy
+: the percentage of the validation data that the model predictions were correct for. 
+
 validation data
-:  data for hyperparameter optimization
+:  data for {term}`hyperparameter` optimization
 :  used for testing in progress of development, not it the learning algorithm, but the model may be changed based on the performance on this set of data
 
 Web Scraping
