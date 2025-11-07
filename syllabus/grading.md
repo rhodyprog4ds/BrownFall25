@@ -93,13 +93,13 @@ Assignments will each evaluate certain objectives. After your assignment is revi
 
 These are the assignments where you *can* earn **complete** on each objective. 
 :::::{csv-table}
-:header: outcome,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
+:header: outcome,A1,A2,A3,A4,A5,A6,A7,A8
 
-process,🟨,🟨,🟨,🟨,✅,✅,✅,✅,✅,✅
-communication,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
-data,✅,✅,✅,✅,✅,✅,✅,✅,✅,✅
-modeling,,,,,,,✅,✅,✅,✅
-exploratory,🟨 ,✅,✅,✅,✅,✅,✅,✅,✅,✅
+process,🟨,🟨,🟨,✅,✅,✅,✅,✅,✅
+communication,✅,✅,✅,✅,✅,✅,✅,✅
+data,✅,✅,✅,✅,✅,✅,✅,✅
+modeling,,,,,✅,✅,✅,✅
+exploratory,🟨 ,✅,✅,✅,✅,✅,✅,✅
 
 :::::
 
@@ -134,18 +134,18 @@ For communication and process you need to show continued progess. For modeling, 
 
 experience,active,15,15,15,15,10,10,10,5,5,5,0
 experience,present,22,22,22,22,22,22,22,22,22,22,0
-process,innovative,5,4,3,2,1,0,0,0,0,0,0
-process,complete,5,5,5,5,4,4,3,2,2,1,0
+process,innovative,      3,2,1,1,0,0,0,0,0,0,0
+process,complete,        4,4,4,4,4,4,3,2,2,1,0
 process,partial,         5,5,5,5,5,5,5,5,5,3,0
 communication,innovative,3,2,1,0,0,0,0,0,0,0,0
-communication,complete,  8,8,8,8,0,0,0,0,0,0,0
-communication,partial,  5,5,5,5,5,5,5,5,5,3,0
+communication,complete,  6,6,6,6,0,0,0,0,0,0,0
+communication,partial,   4,4,4,4,4,4,4,4,4,3,0
 data,innovative,         3,2,1,0,0,0,0,0,0,0,0
-data,complete,           8,8,8,8,7,6,5,4,3,2,0
+data,complete,           6,6,6,5,5,5,4,4,3,2,0
 modeling,innovative,     3,2,1,0,0,0,0,0,0,0,0
 modeling,complete,       4,4,4,4,3,3,2,2,1,1,0
 exploratory,innovative,  3,2,1,0,0,0,0,0,0,0,0
-exploratory,complete,    6,6,6,6,5,4,3,2,1,1,0
+exploratory,complete,    4,6,6,6,5,4,3,2,1,1,0
 ::::::::
 
 These are all minimums and "or better" applies, so innovative ratings count toward the count of complete ratings, but not the other way around.  `Partial` ratings only impact your grade for process and communication. For other objectives you might receive a rating or partial to acknowledge that you made some progress, but you will need to reach complete for your grade.  
