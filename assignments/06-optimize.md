@@ -2,10 +2,16 @@
 # Assignment 6: Optimizing Model Parameters
 
 ## Quick Facts
-- [accept the assignment](https://classroom.github.com/a/ecryLTE8)
+
 - __Due: 2023-11-13__
 
 
+## Submission Instructions
+
+1. Create one notebook for this assignment, `audits`
+1. Export as myst markdown (by [installing jupytext](https://jupytext.readthedocs.io/en/latest/install.html) which should include [frontend features](https://jupytext.readthedocs.io/en/latest/jupyterlab-extension.html) )
+1. Upload (or push) to a branch called `assignment6`
+1. Open a [PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ## Instructions
 
