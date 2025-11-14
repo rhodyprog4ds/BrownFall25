@@ -35,3 +35,6 @@ use the `scoring` parameter to pass better metrics than the default
 of the score method.
 ```
 
+::::{tip}
+Remember what the `GridSearchCV` does and the difference between, test and validation sets
+:::::
