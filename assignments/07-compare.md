@@ -21,9 +21,9 @@ of the score method.
 ```
 
 ```{hint}
-See the questions to consider in A9 for more detail on what to consider when optimizing each model. 
+See the questions to consider in [](06-optimize.md) for more detail on what to consider when optimizing each model. 
 
-If you are skipping submitting A9, follow those instructions for each model. 
+ 
 ```
 
 1. Choose a dataset, it can be appropriate for classification, regression, or clustering. You may reuse your same 80% training set from A5.
