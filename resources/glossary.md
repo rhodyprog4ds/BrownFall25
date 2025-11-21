@@ -1,4 +1,4 @@
-# Glossary
+### Glossary
 
 
 
@@ -6,6 +6,9 @@
 
 accuracy
 : percentage of correct predictions
+
+activation function
+:  nonlinear function that transforms the weighted sum to the it output value in an artificial neuron
 
 aggregate
 :  to combine data in some way, a function that can produce a customized summary table
@@ -263,6 +266,9 @@ supervised learning
 target
 :  the output of a prediction algorithm
 :  also called the dependent variable or label
+
+task
+:  (in ML) the big picture goal of the model, e.g. classification, regression or clustering. 
 
 test accuracy
 :  percentage of predictions that the model predict correctly, based on held-out (previously unseen) test data
