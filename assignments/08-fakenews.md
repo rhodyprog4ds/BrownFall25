@@ -13,7 +13,7 @@ downloads:
 
 
 ```{attention}
-there are 2 deadlines for this instead of an assignment 9. This means that we will review whatever you have done by the 12/4 on 12/5-6 and then give you personalized feedback in order to finish the assignment or extend it.  
+there are 2 deadlines for this: we will review whatever you have done by the 12/4 on 12/5-6 and then give you personalized feedback in order to finish the assignment or extend it.  
 ```
 <!-- - First feedback: {{ early }}
 __Final due date: {{ date }}__ -->
@@ -68,7 +68,7 @@ For each of these you need to show, in your report, *why* this works with eviden
 
 Some ideas to earn innovative
 
-- deepen the analysis  by breaking down the two questions above to make the more specific and detailed. For example, how much more predictive, how reliably more predictie, how sensitive to train/test split is your answer, is the more predictive model slower? if so what would be the tradeoff point? 
+- deepen the analysis  by breaking down the two questions above to make the more specific and detailed. For example, how much more predictive, how reliably more predictive, how sensitive to train/test split is your answer, is the more predictive model slower? if so what would be the tradeoff point? 
 - stress test your model by generating additional fake news using an LLM and scraping additional, newer, high quality news articles(if possible, some news agencies are mad at LLM training procedures and have locked their content down) or using the ones in the 20 news groups dataset
 - based on your analysis how could you help teach a person to spot fake news? (hint: model inspection)
 - How could you get an llm to generate news articles that your classifier thinks are real? (hint: model inspection)
