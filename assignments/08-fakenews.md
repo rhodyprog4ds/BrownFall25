@@ -6,7 +6,7 @@ downloads:
 # Assignment 8: Fake News
 
 ## Quick Facts
-- [accept the assignment](https://classroom.github.com/a/D1fjut40)
+
 - __first: 2024-12-04__
 - __final: 2024-12-11__
 
