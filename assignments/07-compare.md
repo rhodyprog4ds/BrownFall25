@@ -1,4 +1,4 @@
-# A7: Model Copmarison
+# Assignment 7: Model Copmarison
 
 due: 2025-11-20
 

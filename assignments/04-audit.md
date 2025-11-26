@@ -6,7 +6,7 @@ downloads:
     title: full dataset of adult reconstruction
 ---
 
-# Auditing Algorithms
+# Assignment 4: Auditing Algorithms
 
 Due: 2025-10-23
 
