@@ -1,14 +1,16 @@
 # Generic Extension Ideas
 
-### Extension
+
+
+## Extension
 
 If there were parts of your previous assignments that you thought were interesting and you want to work with those data more, you can. You need to do *more complex* analyses of them, but you can build off of what you already have done, especially for assignments 2, 3, and 5. 
 
 
 
-## Extend Assignment 7, 8, or 9   
+## Extend Assignment 5  
 
-Assignments 7-9 help you think through what machine learning tasks are.
+Assignment 5 help you think through what machine learning tasks are.
 Extend those ideas by adding additional experiments based on your own questions
 or the questions in your feedback.
 
@@ -22,7 +24,7 @@ If you are short on time these achievements are easiest to combine with the opti
 
 ## Learn a new model
 
-Repeat what you did in 7, 8, or 9, with a different model.
+Repeat what you did in 5 with a different model.
 
 ## Interview Style Critique
 

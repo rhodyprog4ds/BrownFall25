@@ -162,8 +162,9 @@ This means you only need to do 3 extensions to get an A.
 We will have "ram tokens" that are like extra credit.  
 
 They can be spent for:
-- hints when you are very close to get a suggestion instead of a question (graders's discretion)
-- to upgrade experiences from present to active
+- hints when you are very close to get a suggestion instead of a question (graders's discretion)(1 token)
+- to upgrade experiences from present to active (1 token)
+- to earn a complete when you have at least 2 partials or innovative when you have at least 3 complete (3 tokens)
 
 
 Some ways to earn them include: 

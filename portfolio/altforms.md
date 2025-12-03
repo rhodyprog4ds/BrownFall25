@@ -1,9 +1,7 @@
 (check1ideas)=
-# Alternatives to Extending Assignments for Level 3
+# Alternatives to Extending Assignments for Innovatie
 
-These are other ways you can earn level 3 acheivements besides adding onto previous assigments. 
-
-If your goal is, for example, a B+ (you need 5 level 3s) you could only do 1-2 skills per portfolio check (there are 4 checks).
+These are other ways you can earn innovative besides adding onto previous assigments. 
 
 
 
@@ -20,12 +18,12 @@ Make a detailed reference with code outputs on a topic or a few topics.
 Write a blog post styled Notebook that compares or analyzes something, for example:
 - how do different ways of loading data compare
 - describe best practices you've learned and show why they're good with examples
-
+- summarize what you learned from a guest speaker
 
 
 ## Practice Problems and Solutions
 
-Based on the level 3 rubric descriptions, write practice problems that build off of the lecture notes. Include solutions and descriptions for each. These can be open ended or multiple choice questions with plausible distractors.  A plausible distractor is an incorrect answer that represents a way that you think someone could misunderstand.
+Write practice problems that build off of the lecture notes. Include solutions and descriptions for each. These can be open ended or multiple choice questions with plausible distractors.  A plausible distractor is an incorrect answer that represents a way that you think someone could misunderstand.
 
 For example if the question is 37 + 15 = ?, MCQ with plausible distractors might be:
 - 52 (correct)
