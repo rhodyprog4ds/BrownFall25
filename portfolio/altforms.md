@@ -1,5 +1,5 @@
 (check1ideas)=
-# Alternatives to Extending Assignments for Innovatie
+# Alternatives to Extending Assignments for Innovative
 
 These are other ways you can earn innovative besides adding onto previous assigments. 
 

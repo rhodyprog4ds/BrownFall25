@@ -16,18 +16,15 @@ kernelspec:
 
 Completing the basic assignments that demonstrate you can apply what we cover in class to your own data, is enough for a B, to earn an A you need to extend your knowledge. 
 
-You have some different pathways to earning an A.  
-
-## Extending Assignments
+You have some different pathways to earning an A. See the sections in the left menu for ideas.  
 
 
-Starting in week 3 it is recommended that you spend some time each week working on extensions to earn innovative designation on the skills.
 
-Use the feedback you get on assignments to inspire your extensions.
-
-::::{warning}
- submission logistics will be posted here later
+::::{attention}
+Merge in all of your graded work and create a new PR in your portfolio. 
 :::::
+
+
 <!-- 
 To submit these, submit the work to a separate `<assignment>extended` branch so for assignment 2 extension, submit to `assignment2extended`.
 

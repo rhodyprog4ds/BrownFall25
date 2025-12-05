@@ -1,23 +1,11 @@
-# Process Level 3
+# Process Innovative
 
-
-
-## Process level 3
-
-
-Process level 3 is a little different than most of the others.  You may be able
-to work it into an analysis notebook, but likely, you'll need to do one of the
-following.
+Process is a little different than most of the others.  You can do something from the extending your analyses by extending your work in novel ways or you cn try one fo the following: 
 
 ### Data Science Pipeline Comparisons
 
 Find two different sources that describe the data science pipeline or lifecycle. Write a blog style post that discusses their differences and hypothesizes about why they may be different? Are they for different audiences? Is one domain specific? How do they emphasize different modeling tasks?
 Include a Recommendation for when you think each one is better
-
-### Write a short story
-
-Write a short story that explains the concepts of data science to demonstrate your
-understanding of process.
 
 ### Media Review
 
