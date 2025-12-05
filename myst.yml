@@ -42,8 +42,8 @@ project:
         - file: portfolio/index.md
         # - file: portfolio/formatting.md
         - file: portfolio/extensions.md
-        # - file: portfolio/altforms.md
-        # - file: portfolio/process.md
+        - file: portfolio/altforms.md
+        - file: portfolio/process.md
     - title: FAQ
       children:
         - file: faq/index.md
